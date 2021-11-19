@@ -1,0 +1,600 @@
+%% Esse arquivo é uma versão inicial do template do formato de dissertação do curso de Sistemas de Informação da UNIFEI.
+
+%% Utilizei como base o template do abntex2. Algumas das coisas implementadas por eles não funcionaram muito bem comigo, mas é um template excelente. No código estão todos os créditos.
+
+%% Como todo bom código inacabado, esse também tem "gambiarras" que eu criei para conseguir ter o trabalho no formato esperado. Espero poder um dia corrigir todas elas e disponibilizar um template mais apresentável.
+
+%% Mantive o texto integral do meu TFG. Acredito que assim fica mais fácil entender onde adicionar o que.
+
+%% Qualquer dúvida, me mande um email: flaviomota@unifei.edu.br
+
+%% abtex2-modelo-trabalho-academico.tex, v<VERSION> laurocesar
+%% Copyright 2012-<COPYRIGHT_YEAR> by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	%french,				% idioma adicional para hifenização
+	%spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+    
+% ---
+% Pacotes básicos 
+% ---
+
+%\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage{tgtermes}
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{multirow}           %Utilizado para as tabelas
+\usepackage[table,xcdraw]{xcolor}%Utilizado para as tabelas 
+\usepackage{listings}           %Utilizado para as listas
+\usepackage{subfig}             %Utilizado para as legendas
+% \usepackage[portuguese,ruled,linesnumbered,lined]{algorithm2e}                           %Utilizado para os algoritmos
+% \usepackage{algorithmic}        %Utilizado para os algoritmos
+\usepackage{verbatim}
+\usepackage{pdfpages}           %Utilizado para criar a capa
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{float}
+
+
+
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf,abnt-etal-cite=2]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% Infos do projeto
+%
+
+\newcommand{\thedepartment}{IMC - Instituto de Matemática e Computação}
+\newcommand{\thecourse}{Curso de Ciência da Computação}
+\newcommand{\thetitle}{Smart Ovitraps}
+\newcommand{\thesubtitle}{A Cloud IoT-Ovitrap System}
+\newcommand{\theproftitle}{Bacharel em Ciência da Computação}
+\newcommand{\thestudent}{Daniel Pinheiro dos Reis}
+\newcommand{\theadvisor}{Prof. Dr. Adler Diniz de Souza}
+\newcommand{\thecoadvisor}{Profa. Dra. Elisa Rodrigues}
+\newcommand{\thecity}{Itajubá}
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+
+\begin{document}
+
+\begin{center}
+    \input{./capa}
+\end{center}
+
+\preambulo{Monografia apresentada como trabalho final de graduação, requisito parcial para a obtenção do título de Bacharel em Ciência da Computação, sob orientação da Prof. Dr. Adler Diniz de Souza}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{0,0,0}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+ %pagebackref=true,
+    pdftitle={\@title}, 
+    pdfauthor={\@author},
+    pdfsubject={\imprimirpreambulo},
+    pdfcreator={LaTeX with abnTeX2},
+    pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+    linkcolor=black,          	% color of internal links
+    citecolor=black,        		% color of links to bibliography
+    filecolor=magenta,      		% color of file links
+    urlcolor=blue,
+    bookmarksdepth=4		
+}
+\makeatother
+% --- 
+
+% ---
+% Posiciona figuras e tabelas no topo da página quando adicionadas sozinhas
+% em um página em branco. Ver https://github.com/abntex/abntex2/issues/170
+\makeatletter
+\setlength{\@fptop}{5pt} % Set distance from top of page to first float
+\makeatother
+% ---
+
+% configurações para atender às regras da ABNT
+\setfloatadjustment{quadro}{\centering}
+\renewcommand{\ABNTEXchapterfont}{\rmfamily\small\bfseries}
+\renewcommand{\ABNTEXchapterfontsize}{\small}
+\renewcommand{\ABNTEXsectionfontsize}{\small}
+\renewcommand{\ABNTEXsubsectionfontsize}{\small}
+
+
+
+
+
+
+\setfloatlocations{quadro}{hbtp} % Ver https://github.com/abntex/abntex2/issues/176
+% ---
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% Recuo dos parágrafos
+\setlength{\parindent}{0cm}
+% Controle do espaçamento entre um capitulo e um parágrafo.
+\setlength\afterchapskip{\lineskip}
+ % Controle do espaçamento entre um capitulo e um parágrafos tente também \onelineskip
+\setlength{\parskip}{0.2cm} 
+
+% ---
+% compila o indice
+% ---
+
+% ---
+
+% ----
+% Início do documento
+% ----
+
+\pagenumbering{roman}
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+%% !!!!! A T E N Ç Ã O !!!!
+
+%% !!!!! Solução para inserir a capa no formato da UNIFEI
+
+%% Utilizando o word ou google docs, preencha as informações da capa do template que está em NORMA TFG SIN . Depois exporte a capa no formato PDF e adicione o arquivo ao projeto aqui do overleaf. 
+% ---
+
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+
+% ---
+
+%% !!!!! A T E N Ç Ã O !!!!
+%% --->>>>> NOSSO MODELO NÃO TEM FICHA BIBLIOGRÁFICA
+% ---
+% Inserir a ficha bibliográfica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+%\begin{fichacatalografica}
+%	\sffamily
+%	\vspace*{\fill}					% Posição vertical
+%	\begin{center}					% Minipage Centralizado
+%	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
+%	\small
+%	\imprimirautor
+%	%Sobrenome, Nome do autor
+%	
+%	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
+%	\imprimirlocal, \imprimirdata-
+%	
+%	\hspace{0.5cm} \thelastpage p. : il. (algumas color.) ; 30 cm.\\
+%	
+%	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+	
+%	\hspace{0.5cm}
+%	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+%	\imprimirdata.}\\
+	
+%	\hspace{0.5cm}
+%		1. Palavra-chave1.
+%		2. Palavra-chave2.
+%		2. Palavra-chave3.
+%		I. Orientador.
+%		II. Universidade xxx.
+%		III. Faculdade de xxx.
+%		IV. Título 			
+%	\end{minipage}}
+%	\end{center}
+%\end{fichacatalografica}
+% ---
+
+% ---
+% Inserir errata
+% ---
+
+
+% ---
+\newpage
+\begin{epigrafe}
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{"O insucesso é apenas uma oportunidade para recomeçar com mais inteligência\\
+		(Henry Ford)}
+	\end{flushright}
+\end{epigrafe}
+
+% ---
+% Agradecimentos
+% ---
+
+\begin{agradecimentos}
+Agradeço aos meus pais, por me darem a oportunidade do estudo, à todos os meus professores e amigos por partilharem o conhecimento comigo por poder estar concluindo esse ciclo.
+
+\end{agradecimentos}
+% ---
+
+% ---
+
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+
+\begin{resumo}
+
+A intensificação dos arbovírus (dengue, zika, chikungunya, etc) destaca a necessidade de um controle eficaz do seu vetor de transmissão, o mosquito Aedes. Para isso foram criadas as Ovitrap, armadilhas que capturam os ovos depositados pelas fêmeas impedindo a multiplicação da população de mosquitos. Apesar dos vários modelos de Ovitraps existentes poucos ou quase nenhum deles aplicam algum conceito de tecnologia em seu desenvolvimento, tais modelos necessitam de um profissional que realize o trabalho de campo de coleta das armadilhas e de um profissional para análise dos dados coletados. Este trabalho busca desenvolver uma ovitrap que facilite o trabalho de campo de coleta e de analise dos dados. Para isso aplica modelos de IoT no desenvolvimento de uma ovitrap "inteligente" capaz de capturar os dados e disponibiliza-los na nuvem para que possam ser acessados de maneira remota em qualquer lugar com acesso a Internet.
+
+\textbf{Palavras-chave}:  Armadilha, Ovitrap, IoT, Dengue, Zika, Chikungunya
+
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+\begin{otherlanguage*}{english}
+
+The intensification of arboviruses (dengue, zika, chikungunya, etc.) highlights the need for effective control of its transmission vector, the female Aedes mosquito. For this purpose, Ovitrap were created, traps that capture the eggs deposited by the females, preventing the multiplication of the mosquito population. Despite the several existing Ovitraps models, few or almost none of them apply any concept of technology in their development, such models need a professional to carry out the fieldwork to collect the traps and a professional to analyze the collected data. This work seeks to develop a platform that facilitates the field work of collecting and analyzing data. For this, IoT models are applied in the development of a "smart" device capable of capturing data and making it available in the cloud so that it can be accessed remotely anywhere with Internet access.
+
+\textbf{Palavras-chave}: Traps, Ovitrap, IoT, Dengue, Zika, Chikungunya
+
+\end{otherlanguage*}
+\end{resumo}
+
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de quadros
+% ---
+\begin{comment}
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
+\end{comment}
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+  \item[IoT] Internet of Things 
+Artificiais 
+\end{siglas}
+% ---
+
+\begin{comment}
+% ---
+% inserir lista de símbolos
+% ---
+\begin{simbolos}
+  \item[$ \Gamma $] Letra grega Gama
+  \item[$ \Lambda $] Lambda
+  \item[$ \zeta $] Letra grega minúscula zeta
+  \item[$ \in $] Pertence
+\end{simbolos}
+\end{comment}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+%altera a paginação
+
+\pagenumbering{arabic}
+\setcounter{page}{12}
+
+\chapter{Introdução}
+A intensificação dos arbovírus (dengue, zika, chikungunya, etc) destaca a necessidade de
+um controle eficaz do seu vetor de transmissão, o mosquito Aedes. A principal
+medida de prevenção dos arbovírus é o controle da população do mosquito. A
+implementação dessas medidas preventivas requer ferramentas de vigilância eficientes que
+permitam prever a população real de mosquitos \cite{ISMALIZA2019}. Uma ferramenta de controle que vem
+sendo utilizada desde a década de 70 são as ovitraps \cite{LOK1977}
+
+\section{O que é uma ovitrap?}
+
+Ovitraps são armadilhas desenvolvidas para capturar larvas e ou mosquitos. A primeira ovitrap que se tem informação é creditada a Loki 1977 \cite{LOK1977}e é mostrada na Figura 1. A ovitrap de Loki consiste em um recipiente cilíndrico preto, cheio de água,
+com uma abertura de malha trançada no topo, com duas pás de madeira sob ela. Embora
+fêmea do mosquito que deposita seus ovos na armadilha não seja morta, os filhotes que
+eclodem dos ovos ficam presos pela malha trançada de morrem afogados.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=4cm]{imagens/ovitrapLoki.jpg}
+\caption{Primeiro modelo de ovitrap, desenvolvido na década de 70}
+    \label{fig:OvitrapLoki}
+    \legend{Disponível em: \nolinkurl{https://www.appropedia.org/Ovitrap}. Acesso em: \today}
+\end{figure}
+
+\section{Evolução das ovitraps}
+
+Na evolução das ovitraps foram criadas ovitraps letais. A primeira delas continha uma fita
+tratada com inseticida, nas paredes do seu interior, que matava as fêmeas atraídas pela
+água, porém foi observado que o mosquito ganhava resistência ao inseticida ao longo do
+tempo \cite{BRIANJJOHNSON2017}. Depois foi desenvolvido um modelo que ao invés de uma fita com inseticida
+continha uma fita adesiva que capturava a fêmea do mosquito \cite{BRIANJJOHNSON2017}. Apesar de eficientes e 
+baratas, as ovitraps até então, eram pequenas, o que além de exigir manutenção em curtos
+períodos de tempo, não eram tão atrativa as fêmeas do mosquito \cite{BRIANJJOHNSON2017}. Foi desenvolvido
+então, modelos maiores, mais atrativos as fêmeas do mosquito e que demandavam
+manutenções em períodos de tempo maiores.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.3]{imagens/exemplosovitraps.png}
+ \caption{(A) Standard Lethal Ovitrap (LO), (B) National Environmental Agency Singapore Sticky Ovitrap (SO), (C) MosquiTRAP Sticky Ovitrap (SO), (D) Biogents Gravid Aedes Trap (GAT), (E) Centers for Disease Control (CDC) Autocidal Gravid Ovitrap(AGO)}
+    \label{fig:evolucaoOvitraps}
+    \legend{Disponível em: \nolinkurl{https://www.researchgate.net/publication/312158747_The_State_of_the_Art_of_Lethal_Oviposition_Trap-Based_Mass_Interventions_for_Arboviral_Control/figures}. Acesso em: \today}
+\end{figure}
+
+Embora as armadilhas sejam diferentes no design, tanto o AGO (E) quanto o GAT (D)
+alcançaram o efeito desejado superando as ovitraps padrão em atratividade para o Aedes.
+Estudos em Porto Rico demonstraram que a AGO capturou mais fêmeas grávidas e
+forneceu maior sensibilidade do que as ovitraps convencionais \cite{BRIANJJOHNSON2017}, enquanto em testes no norte da Austrália, os GATs coletaram de 2 a 4 vezes mais Aedes do sexo feminino que
+duas variações de ovitraps, o MosquiTRAP e o ovitrap pegajoso duplo.
+
+\section{Motivação}
+Apesar da variação de modelos, todos eles precisam de um agente que faça o trabalho de
+campo de coletar os dados e prestar manutenção nas armadilhas. Em uma pesquisa
+bibliográfica encontrou-se apenas um modelo que emprega o conceito de IoT (Internet Of
+Things) em ovitrap o modelo desenvolvido por ISMALIZA ISA et al. \cite{ISMALIZA2019}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{imagens/smartovitrap.png}
+\includegraphics[scale=0.5]{imagens/smartovitrap2.png}
+ \caption{Modelo de ovitrap desenvolvido por Ismaliza Isa et al. }
+    \label{fig:ovitrapIsmaliza}
+    \legend{Disponível em: \nolinkurl{https://www.researchgate.net/publication/337160411_An_IoT-Based_Ovitrap_System_Applied_for_Aedes_Mosquito_Surveillance/figures}. Acesso em: \today}
+\end{figure}
+
+A Figura 3. mostra uma ovitrap sticker (captura o mosquito em uma fita adesiva),
+além de capturar o mosquito, a armadilha possui um sensor em seu interior que conta a
+quantidade de mosquitos que passaram pela armadilha, sendo eles capturados ou não por
+ela. Este número é mostrado no display da armadilha e enviado para uma aplicação web
+que pode ser acessada através de um navegador em qualquer dispositivo conectado à
+internet.
+
+Diante do exposto, este trabalho busca desenvolver uma solução para o controle da
+população do mosquito Aedes, que seja mais rápida e eficaz que o método tradicional
+controle, utilizando para isso recursos de tecnologia.
+
+\section{Justificativa}
+
+O método tradicional de controle, exige trabalho de campo para coletar e analisar os dados
+das ovitraps. Este trabalho geralmente é feito por um ou mais agentes que vão até o local
+da armadilha para coletar os ovos e mosquitos para análises futuras. Tomando como
+exemplo um cenário com mais de 100 armadilhas, o trabalho de coleta de todas as
+armadilhas consumiria um tempo de deslocamento do agente, proporcional ao número de
+armadilhas. Este tempo poderia ser reduzido caso houvesse um sistema centralizado que
+exibisse os dados de todas as armadilhas em tempo real. Este sistema é uma das soluções
+que este trabalho propõe.
+
+\chapter{Desenvolvimento}
+Nesta seção busca-se descrever as etapas de desenvolvimento da solução proposta.
+
+\begin{itemize}
+    \item Ovitrap:
+        \begin{itemize}
+        \item Desenvolver uma ovitrap que atraía e capture mosquitos fêmea.
+        \end{itemize}
+    \item Hardware:
+        \begin{itemize}
+        \item Contar quantos mosquitos passaram pela armadilha.
+        \item Fotografar mosquitos e larvas.
+        \item Enviar dados coletados com respectiva geolocalização de maneira segura para um banco de dados.
+        \end{itemize}
+    \item Software:
+        \begin{itemize}
+        \item Receber dados de múltiplas armadilhas trata-los e armazena-los de maneira segura em um banco de dados.
+        \item Disponibilizar os dados armazenados para que sejam consumidos por outras aplicações.
+        \end{itemize}
+\end{itemize}
+
+\section{Ovitrap}
+Um dos grandes desafios ao se desenvolver uma ovitrap é torna-la atraente para as fêmeas do mosquito, isto é, fazer com que a fêmea do mosquito deposite seus ovos na ovitrap e não em outro lugar próximo a ela. Testes feitos por \cite{DAVIDF2011} e \cite{VALERIE2016} constataram que os mosquitos fêmeas são atraídos por ovitraps totalmente pretas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{imagens/tileshop.jpeg}
+\caption{Padrões em ovitraps}
+    \legend{Disponível em: \nolinkurl{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988764/figure/pone.0160386.g009/}. Acesso em: \today}
+\end{figure}
+
+Outro ponto relevante ao se projetar uma ovitrap é o seu tamanho, segundo \cite{BRIANJJOHNSON2017} ovitraps de tamanho grande são mais atrativas as fêmeas do mosquito que as ovitraps pequenas
+além de demandarem manutenções menos frequentes uma vez que as ovitraps pequenas tem taxas de evaporação de água muito maiores que as ovitraps grandes.
+
+Levando em conta os pontos levantados anteriormente buscou-se desenvolver uma ovitrap atrativa as fêmeas do mosquito e que demandasse manutenções com pouca franquência.
+
+\newpage
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.09]{imagens/prototipo1_2.jpg}
+\caption{Ovitrap desenvolvida neste trabalho (sem sensores)}
+    \legend{FONTE: Autor}
+\end{figure}
+
+A Figura 5 mostra o primeiro protótipo de ovitrap desenvolvido por este trabalho, ainda faltando os componente eletrônicos que serão colocados futuramente da seguinte forma:
+
+Embaixo do prato superior será colocado o sensor laser e a câmera ESP32-CAM ambos apontando para o fundo da armadilha, ou seja quando o mosquito entrar na armadilha ele será fotografado e contabilizado. Estuda-se pintar o fundo interno da armadilha de verde para maior contraste com os mosquitos fotografados. 
+
+Também será colocada uma GoPro submersa na água contida no interior da armadilha que será responsável por fotografar periodicamente o desenvolvimento das larvas proveniente dos ovos depositados na armadilha.
+
+Todas as imagens bem como informações como a quantidade de mosquitos e a localização da armadilha serão enviados via Wi-Fi pelo ESP32-CAM para uma API responsável por armazenar disponibilizar estes dados em Nuvem.
+
+
+\section{Hardware}
+
+Para que fosse possível contar os mosquitos que adentrassem na armadilha foram colocados peças de hardware na armadilha. Foram testados alguns módulos e sensores como o NodeMCU e o sensor Ultrassônico, porém devido a baixa precisão do sensor ultrassônico ele foi substituído por um sensor laser de maior precisão.
+
+Os módulos sensores e câmeras utilizados na armadilha são:
+
+\subsection{NodeMCU}
+
+O NodeMCU é uma placa de desenvolvimento com modulo Wi-Fi integrado, compativel com as linguagens de programação: Lua, Python, JavaScript e IDE do Arduino .
+
+\subsection{VL53L0X (Time-of-Flight)}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{imagens/gy-vl53l0x.jpg}
+\caption{VL53L0X-V2. (Time-of-Flight)}
+    \label{fig:gy-vl53l0x}
+    \legend{FONTE: Autor}
+\end{figure}
+
+O VL53L0X-V2 é um sensor a laser de tempo de voo, ele é responsável por detectar quando o mosquito entra na armadilha e mandar as informações para o NodeMCU.
+
+\section{\textbf{Software}}
+
+Para receber e armazenar os dados provenientes das armadilhas foi foi desenvolvido uma API em NodeJS, utilizando o framework Express e banco de dados Postgres. 
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\chapter*{APENDICE A - DOCUMENTO DE REQUISITOS}
+
+
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+
+\chapter*{REFERÊNCIAS}
+\addcontentsline{toc}{chapter}{REFERÊNCIAS}
+\renewcommand{\bibsection}{}
+\bibliography{bibliografia.bib}
+
+
+%---------------------------------------------------------------------
+
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+
+%---------------------------------------------------------------------
+\end{document}
+

@@ -295,9 +295,9 @@ sendo utilizada desde a década de 70 são as ovitraps \cite{LOK1977}
 
 Ovitraps são armadilhas desenvolvidas para capturar larvas e ou mosquitos. A primeira ovitrap que se tem informação (Figura 1) é creditada a 
 Loki 1977 \cite{LOK1977}. A ovitrap de Loki consiste de um recipiente cilíndrico preto, cheio de água,
-com uma abertura de malha trançada no topo, com duas pás de madeira sob ela. Embora
+com uma abertura de malha trançada no topo, com duas pás de madeira sob ela. Embora a
 fêmea do mosquito que deposita seus ovos na armadilha não seja morta, os filhotes que
-eclodem dos ovos ficam presos pela malha trançada de morrem afogados.
+eclodem dos ovos ficam presos pela malha trançada e morrem afogados.
 
 \begin{figure}[h!]
 \centering
@@ -315,8 +315,8 @@ tratada com inseticida, nas paredes do seu interior, que matava as fêmeas atra�
 tempo \cite{BRIANJJOHNSON2017}. Depois foi desenvolvido um modelo que ao invés de uma fita com inseticida
 utilizava uma fita adesiva que capturava a fêmea do mosquito \cite{BRIANJJOHNSON2017}. Apesar de eficientes e 
 baratas, as ovitraps até então, eram pequenas, o que além de exigir manutenção em curtos
-períodos de tempo, não eram tão atrativa as fêmeas do mosquito \cite{BRIANJJOHNSON2017}. Foi desenvolvido
-então, modelos maiores, mais atrativos as fêmeas do mosquito e que demandavam
+períodos de tempo, não eram tão atrativas as fêmeas do mosquito \cite{BRIANJJOHNSON2017}. Foi desenvolvido
+então, modelos maiores, mais atrativos às fêmeas do mosquito e que demandavam
 manutenções em períodos de tempo maiores.
 
 \begin{figure}[h!]
@@ -332,13 +332,13 @@ Embora as armadilhas sejam diferentes no design, tanto o AGO (E) quanto o GAT (D
 alcançaram o efeito desejado superando as ovitraps padrão em atratividade para o Aedes.
 Estudos em Porto Rico demonstraram que a AGO capturou mais fêmeas grávidas e
 forneceu maior sensibilidade do que as ovitraps convencionais \cite{BRIANJJOHNSON2017}, enquanto em testes no norte da 
-Austrália, os GATs coletaram de 2 a 4 vezes mais Aedes do sexo feminino que
+Austrália, os GATs coletaram de 2 a 4 vezes mais Aedes fêmeas que
 duas variações de ovitraps, o MosquiTRAP e o ovitrap pegajoso duplo. 
 
 \section{Motivação}
 Apesar da variação de modelos, todos eles precisam de um agente que faça o trabalho de
 campo de coletar os dados e prestar manutenção nas armadilhas. Em uma pesquisa
-bibliográfica encontrou-se apenas um modelo que emprega o conceito de IoT em ovitrap, o modelo desenvolvido por \cite{ISMALIZA2019} (Figura 3)
+bibliográfica encontrou-se apenas um modelo que emprega o conceito de IoT em ovitrap, o modelo desenvolvido por Ismaliza e outros \cite{ISMALIZA2019} (Figura 3)
 
 \begin{figure}[H]
 \centering
@@ -349,11 +349,11 @@ bibliográfica encontrou-se apenas um modelo que emprega o conceito de IoT em ov
     \legend{Disponível em: \nolinkurl{https://www.researchgate.net/publication/337160411_An_IoT-Based_Ovitrap_System_Applied_for_Aedes_Mosquito_Surveillance/figures}. Acesso em: \today}
 \end{figure}
 
-O modelo desenvolvido por ISMALIZA ISA et al é uma ovitrap sticker,
+O modelo desenvolvido por Ismaliza e outros é uma ovitrap sticker,
 além de capturar o mosquito, a armadilha possui um sensor (VL53L0X) em seu interior que conta a
-quantidade de mosquitos que passaram pela armadilha, sendo eles capturados ou não por
+quantidade de mosquitos que passaram pela armadilha, sendo eles capturados, ou não, por
 ela. Este número é mostrado no display da armadilha e enviado para uma aplicação web
-que pode ser acessada através de um navegador em qualquer dispositivo conectado à
+que pode ser acessada através de um navegador em qualquer dispositivo conectado a
 internet.
 
 Diante do exposto, este trabalho busca desenvolver uma solução para o controle da
@@ -362,11 +362,11 @@ controle, utilizando para isso recursos de tecnologia.
 
 \section{Justificativa}
 
-O método tradicional de controle, exige trabalho de campo para coletar e analisar os dados
+O método tradicional de controle exige trabalho de campo para coletar e analisar os dados
 das ovitraps. Este trabalho geralmente é feito por um ou mais agentes que vão até o local
 da armadilha para coletar os ovos e mosquitos para análises futuras. Tomando como
 exemplo um cenário com mais de 100 armadilhas, o trabalho de coleta de todas as
-armadilhas consumiria um tempo de deslocamento do agente, proporcional ao número de
+armadilhas consumiria um tempo de deslocamento do agente proporcional ao número de
 armadilhas. Este tempo poderia ser reduzido utilizando a solução proposta por esse trabalho, em que a quantidade capturada de mosquitos,
 bem como a localização de cada armadilha é mostrada em um mapa, facilitando a análise e posterior tomada de decisão.
 
@@ -390,12 +390,12 @@ A figura acima é primeira foto do desenvolvimento deste trabalho, ela mostra um
 um sensor ultrassônico, um módulo ESP32-CAM e uma câmera GoPro. A foto foi tirada no primeiro de vários testes. 
 
 O primeiro teste consistia em ter duas câmeras, uma para fotografar 
-os mosquitos (ESP32-CAM), e uma para as larvas (GoPro). A câmera GoPro possui um web server integrado, onde é possível, via requisições HTTP, tirar fotos, gravar vídeos e controlar 
-várias outras funções da câmera, o ESP32-CAM tambem possui wi-fi integrado, então neste primeiro modelo, a câmera esp era ativada pelo sensor laser, e GoPro era ativada a cada 1 hora, 
+os mosquitos (ESP32-CAM), e uma para as larvas (GoPro). A câmera GoPro possui um web server integrado, onde é possível via requisições HTTP, tirar fotos, gravar vídeos e controlar 
+várias outras funções da câmera, o ESP32-CAM também possui wi-fi integrado. Então, neste primeiro modelo, a câmera esp era ativada pelo sensor laser, e a GoPro era ativada a cada 1 hora, 
 lembre-se que a GoPro ficaria submersa e seria responsável por fotografar o desenvolvimento das larvas do mosquito. 
-Uma das dificuldades encontradas neste primeiro modelo era que além de se conectar com o web server da GoPro, 
+Uma das dificuldades encontradas neste primeiro modelo, era que além de se conectar com o web server da GoPro, 
 o modulo ESP32-CAM também se conectava com uma rede Wifi externa, através da qual enviava as fotos via requisição HTTP para API. 
-O tempo de envio das fotos da GoPro para API era um pouco lento devido a alta resolução das fotos, já o tempo do ESP32 era aceitável. 
+O tempo de envio das fotos da GoPro para API era um pouco lento, devido a alta resolução das fotos, já o tempo do ESP32 era aceitável. 
 Outro ponto era que essas fotos ficavam armazenadas em um cartão Micro-SD no módulo ESP32-CAM. O fato de ter que conectar em duas redes diferentes, 
 ter de usar um cartão Micro-SD, além do custo do projeto ficar elevado devido a GoPro, foi desenvolvido um segundo teste sem a GoPro, apenas 
 com o ESP32-CAM e o sensor laser.
@@ -408,10 +408,10 @@ com o ESP32-CAM e o sensor laser.
         \legend{FONTE: Autor}
     \end{figure}
 
-Neste segundo teste havia apenas uma câmera ESP32-CAM, utilizando um cartão Micro-SD e fixada no teto da armadilha, o fato de usar apenas uma câmera eliminou a necessidade 
-de se conectar em duas redes diferentes e o tempo de upload de arquivos para API era menor que do primeiro teste, uma vez que as fotos tiradas pelo ESP32-CAM
-tem no máximo 2MB de resolução, se por um lado isso é bom para comunicação com a API, por outro lado é ruim, pois é praticamente impossível detectar um mosquito na foto registrada. 
-Fator esse que levou a um terceiro teste que deu origem ao protótipo apresentado a seguir. 
+Neste segundo teste havia apenas uma câmera ESP32-CAM, utilizando um cartão Micro-SD e fixada no teto da armadilha, o fato de usar apenas uma câmera, eliminou a necessidade 
+de se conectar em duas redes diferentes, e o tempo de upload de arquivos para API era menor que do primeiro teste, uma vez que as fotos tiradas pelo ESP32-CAM
+tem no máximo 2MB de resolução. Se por um lado isso é bom para comunicação com a API, por outro lado é ruim, pois é praticamente impossível detectar um mosquito na foto registrada, 
+fator esse que levou a um terceiro teste que deu origem ao protótipo apresentado a seguir.
 
 \begin{figure}[H]
     \centering
@@ -431,11 +431,11 @@ Nesta seção busca-se descrever as etapas de desenvolvimento da solução propo
     \item Hardware:
         \begin{itemize}
         \item Contar quantos mosquitos passaram pela armadilha.
-        \item Enviar dados coletados com respectiva a geolocalização da armadilha de maneira segura para uma API.
+        \item Enviar dados coletados da armadilha de maneira segura para uma API.
         \end{itemize}
     \item Software:
         \begin{itemize}
-        \item Desenvolver uma API para receber dados de múltiplas armadilhas tratá-los e armazená-los de maneira segura em um 
+        \item Desenvolver uma API para receber dados de múltiplas armadilhas, tratá-los e armazená-los de maneira segura em um 
         banco de dados.
         \item Disponibilizar os dados armazenados para que sejam consumidos por outras aplicações.
         \item Desenvolver uma aplicação web para consumir os dados fornecidos pela API.
@@ -457,7 +457,7 @@ são atraídos por ovitraps totalmente pretas.
 
 Outro ponto relevante ao se projetar uma ovitrap é o seu tamanho, segundo \cite{BRIANJJOHNSON2017} ovitraps de tamanho grande são 
 mais atrativas as fêmeas do mosquito
- que as ovitraps pequenas além de demandarem manutenções menos frequentes uma vez que as ovitraps pequenas têm taxas de evaporação 
+ que as ovitraps pequenas além de demandarem manutenções menos frequentes, uma vez que as ovitraps pequenas têm taxas de evaporação 
  de água muito maiores que as ovitraps maiores.
 
 \newpage
@@ -479,7 +479,7 @@ pela cola nas paredes pretas da abertura, ao tentar sair da armadilha, orientado
 É possível também passar um inseticida sob a parte transparente para antecipar
 a morte do mosquito.
 
-Para o desenvolvimento do protótipo foram utilizados os seguintes materiais
+Para o desenvolvimento do protótipo foram utilizados os seguintes materiais:
 
 
 \subsection{Vaso maior}
@@ -487,7 +487,7 @@ Para o desenvolvimento do protótipo foram utilizados os seguintes materiais
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.04, angle=-90]{imagens/IMG_0598.jpg}
-    \caption{Vaso grande}
+    \caption{Vaso maior}
     \label{fig:vasomaior}
     \legend{FONTE: Autor}
 \end{figure}        
@@ -495,8 +495,8 @@ Dimensões:
 
 \begin{itemize}
     \item Diâmetro abertura: 30 cm
-    \item Diâmetro superior 36 cm
-    \item Diâmetro inferior 20 cm
+    \item Diâmetro superior: 36 cm
+    \item Diâmetro inferior: 20 cm
     \item Altura: 14 cm
 \end{itemize}
 
@@ -514,8 +514,8 @@ Dimensões:
 
 \begin{itemize}
     \item Diâmetro abertura: 14,5 cm
-    \item Diâmetro superior 17,5 cm
-    \item Diâmetro inferior 10,5 cm
+    \item Diâmetro superior: 17,5 cm
+    \item Diâmetro inferior: 10,5 cm
     \item Altura: 14 cm
 \end{itemize}
 
@@ -557,8 +557,8 @@ Dimensões:
 
 \begin{itemize}
     \item Diâmetro da abertura recortada: 14,5 cm
-    \item Diâmetro superior 20 cm
-    \item Diâmetro inferior 30 cm
+    \item Diâmetro superior: 20 cm
+    \item Diâmetro inferior: 30 cm
     \item Altura: 11 cm
 \end{itemize}
 
@@ -579,7 +579,7 @@ Dimensões:
     \legend{FONTE: Autor}
 \end{figure}   
 
-A tela mosquiteira foi recortada em forma de circulo com 30 cm de diâmetro e fixada com velcro às paredes do vaso maior.
+A tela mosquiteira foi recortada em forma de circulo com 30 cm de diâmetro e fixada com velcro as paredes do vaso maior.
 
 \subsection{Breu}
 
@@ -591,11 +591,10 @@ A tela mosquiteira foi recortada em forma de circulo com 30 cm de diâmetro e fi
     \legend{FONTE: Autor}
 \end{figure}   
 
-Breu é uma resina natural utilizada para afinar violinos, envernizar moveis, pode ser encontrado em casas de materiais agrícolas, 
-No protótipo da armadilha ele foi 
-utilizado nas paredes internas da abertura da armadilha como cola para captura do mosquito. Para o preparo da cola, basta misturar 
-100g de breu com 50ml de óleo de soja 
-e aquecer a mistura em um fogão em fogo baixo por aproximadamente 25 minutos.
+Breu é uma resina natural utilizada para afinar violinos, envernizar móveis, pode ser encontrado em casas de materiais agrícolas. 
+No protótipo da armadilha ele foi utilizado nas paredes internas da abertura da armadilha como cola para captura do mosquito.
+Para o preparo da cola, basta misturar 100g de breu com 50ml de óleo de soja e aquecer a mistura em um fogão em fogo baixo por
+ aproximadamente 25 minutos.
 
 \subsection{Palitos de churrasco e fitas hellerman}
 
@@ -614,7 +613,7 @@ o conjunto de módulos e sensores ao prato superior.
 
 \section{Hardware}
 
-Para que fosse possível contar os mosquitos que adentrassem na armadilha foram colocados peças de hardware na armadilha.
+Para que fosse possível contar os mosquitos que adentrassem na armadilha foram colocados peças de hardware nesta.
 Foram testados alguns módulos e sensores como o NodeMCU e o sensor Ultrassônico, porém devido a baixa precisão do sensor ultrassônico ele 
 foi substituído por um sensor laser de maior precisão.
 
@@ -626,7 +625,7 @@ foi substituído por um sensor laser de maior precisão.
     \legend{FONTE: Autor}
 \end{figure}   
 
-Na figura acima vemos o módulo NodeMCU, alimentado por um cabo micro USB e conectado a uma protoboard que o conecta a 5 sensores laser,
+Na figura acima vemos o módulo NodeMCU, alimentado por um cabo micro USB e conectado a uma protoboard que o conecta a 5 sensores laser
 fixados nas extremidades do prato. Foi utilizada a protoboard para fins de desenvolvimento e teste do conjunto, após a validação do mesmo
 a protoboard bem como todo esse emaranhado de fios será substituido por um circuito digital bem mais enxuto. 
 
@@ -667,13 +666,13 @@ JavaScript e IDE do Arduino.
     \legend{FONTE: Autor}
 \end{figure}
 
-O VL53L0X-V2 é um sensor a laser de tempo de voo, ele é responsável por detectar quando o mosquito entra na armadilha e mandar as 
+O VL53L0X-V2 é um sensor a laser de tempo de vôo, ele é responsável por detectar quando o mosquito entra na armadilha e mandar as 
 informações para o NodeMCU.
 
 \section{Software}
 
-Para receber e armazenar os dados provenientes das armadilhas foi foi desenvolvido uma API em NodeJS, utilizando o framework Express
- e banco de dados Postgre.
+Para receber e armazenar os dados provenientes das armadilhas foi desenvolvido uma API em NodeJS, utilizando o framework Express
+e banco de dados Postgre.
 
 \begin{figure}[H]
 \centering
@@ -685,12 +684,12 @@ Para receber e armazenar os dados provenientes das armadilhas foi foi desenvolvi
 
 
 O diagrama acima mostra a infraestrutura do projeto na nuvem, que foi hospedado utilizando os serviço do AWS da Amazon. O front-end está hospedado
-utilizando o serviço de hospedagem de site estático S3. A API bem como o banco de dados estão rodando em containers Docker dentro de 
-uma instancia do EC2. A comunicação entre a aplicação cliente e a API é feita utilizando o protocolo HTTP e Web Socket.
+utilizando o serviço de hospedagem de site estático Amazon S3. A API bem como o banco de dados estão rodando em containers Docker dentro de 
+uma instância do Amazon EC2. A comunicação entre a aplicação cliente e a API é feita utilizando o protocolo HTTP e Web Socket.
 
 \subsection{Banco de dados}
 
-Para a tarefa de armazenar os dados provenientes das armadilhas, das empresas/prefeituras e dos usuários da plataforma, 
+Para a tarefa de armazenar os dados provenientes das armadilhas das empresas/prefeituras e dos usuários da plataforma, 
 foi escolhido o banco relacional Postgre. A figura abaixo mostra o diagrama de tabelas do banco:
 
 \begin{figure}[H]
@@ -701,30 +700,30 @@ foi escolhido o banco relacional Postgre. A figura abaixo mostra o diagrama de t
     \legend{FONTE: Autor}
 \end{figure}
 
-É inserido um novo registro na tabela ovitrap\_catches a cada captura feita por qualquer armadilha, isso possibilita gerar um grafico do 
+É inserido um novo registro na tabela ovitrap\_catches a cada captura feita por qualquer armadilha, isso possibilita gerar um gráfico do 
 número de capturas em função do tempo.
 
 As tabelas permission, profiles e profile\_permissions são responsáveis por fazer o controle de permissões do usuário na plataforma, 
-uma vez que cada usuário tem um perfil e cada perfil possui permissões específicas para aquele perfil. 
+uma vez que cada usuário tem um perfil e cada perfil possui permissões específicas para este. 
 
 A tabela blacklists guarda os tokens
 inválidos que são inseridos quando o usuário faz o logout ou quando seu token expira.
 
-Para criação das tabelas e inserção dos perfis e permissões foi escolhido o ORM Sequelize que gera a tabela SequelizeMeta para guardar as migrations
+Para criação das tabelas e inserção dos perfis e permissões, foi escolhido o ORM Sequelize que gera a tabela SequelizeMeta para guardar as migrations
  que já foram executadas no banco.
 
 \subsection{API}
 
 A API para consumo dos dados armazenados no banco foi feita em NodeJS utilizando o framework Express. Todas as rotas (exceto login e 
-esqueci minha senha) são protegidas por token, com token de 8h de duração. Todas as rotas contam com validação dos campos recebidos. 
+esqueci minha senha) são protegidas por token, com 8h de duração. Todas as rotas contam com validação dos campos recebidos. 
 
-Além de uma porta destinada a requisições HTTP, há outra porta destinada a comunicação via web socket, utilizando Socket.io, isso possibilita que à aplicação cliente 
-receber dados em tempo real, como por exemplo se houver uma captura de mosquito e o usuário estiver logado na plataforma, o seu dashboard irá atualizar
+Além de uma porta destinada a requisições HTTP, há outra porta destinada a comunicação via web socket, utilizando Socket.io, isso possibilita que a aplicação cliente 
+receba dados em tempo real, como por exemplo, se houver uma captura de mosquito e o usuário estiver logado na plataforma o seu dashboard irá atualizar
 no mesmo instante.
 
 \subsection{Aplicação Cliente}
 
-Para exibição dos dados em qualquer navegador web, a aplicação cliente foi desenvolvida utilizando ReactJS, redux-saga e MUI. A aplicação é responsiva,
+Para exibição dos dados em qualquer navegador web, a aplicação cliente foi desenvolvida utilizando ReactJS, redux-saga e MUI. A aplicação é responsiva e
 conta com dois temas, claro e escuro, dois idiomas, português e inglês. 
 
 \begin{figure}[H]
@@ -785,7 +784,7 @@ suas próprias armadilhas.
 
 \section{Visão geral do sistema}
 
-Juntando protótipo, sistema embarcado no protótipo e sistema hospedado em nuvem temos o seguinte diagrama:
+Juntando protótipo, sistema embarcado e sistema hospedado em nuvem, temos o seguinte diagrama:
 
 \begin{figure}[H]
     \centering
@@ -861,14 +860,14 @@ Abaixo temos a tabela completa de todos os materiais e valores, cotados na data 
 \end{center}
 
 Observamos a partir da tabela acima que o custo com componentes eletrônicos foi de R\$133,904 que representa 80,64\% do valor total do protótipo e que o custo com 
-com componentes estruturais foi de R\$32,15 que representa 19,36\% do valor total do protótipo
+com componentes estruturais foi de R\$32,15 que representa 19,36\% do valor total do protótipo.
 
 \chapter{Conclusão e trabalhos futuros}
 
-Baseado nos testes realizados com o protótipo em campo aberto, observou-se que a maior dificuldade é atrair mosquitos para armadilha, a armadilha foi deixada por uma semana em
-um jardim, e não foi capturado nenhum mosquito. Houve alguns registros do  sensor, porém nenhum mosquito foi capturado pela cola interna da armadilha. A cola desenvolvida com breu,
-após alguns dias derreteu e caiu na tela mosquiteira da armadilha, provavelmente devido ao calor do sol. Após alguns meses a cola ressecou e perdeu sua aderência. Apesar do protótipo
-não ter sucesso em capturar mosquitos, todo o restante da aplicação se saiu bem em testes com objetos maiores ou com chamadas HTTP que simulam uma armadilha real. A plataforma está 
+Baseado nos testes realizados com o protótipo em campo aberto, observou-se que a maior dificuldade é atrair mosquitos para armadilha, sendo que esta foi deixada por uma semana em
+no jardim, e não foi capturado nenhum mosquito. Houve alguns registros do  sensor, porém nenhum mosquito foi capturado pela cola interna da armadilha. A cola desenvolvida com breu,
+após alguns dias derreteu e caiu na tela mosquiteira da armadilha devido ao calor do sol. Após alguns meses a cola ressecou e perdeu sua aderência. Apesar do protótipo
+não ter sucesso em capturar mosquitos, todo o restante da aplicação se saiu bem, em testes com objetos maiores ou com chamadas HTTP que simulam uma armadilha real. A plataforma está 
 consistentes e pode ser replicada para qualquer outra rede de sensores com pouquíssimas modificações, a estrutura do banco está bem definida e todo o sistema de perfis e 
 permissões podem ser customizados de acordo com a necessidade do cliente.
 
@@ -878,15 +877,15 @@ Como trabalhos futuros temos os seguintes itens:
     \item Nível de protótipo
     \begin{itemize}
         \item Validar o protótipo da armadilha, em ambiente controlado e em ambiente aberto. Analisar e comparar os resultados e a eficácia da mesma.
-        \item Analisar o uso de substâncias com cheiro atrativo para o mosquito, como por exemplo a alfafa prensada.
-        \item Analisar a viabilidade de se trocar o sensor laser por um sensor sonoro, com aplicação de filtro sonoro para a frequência sonora de voo do mosquito.
-        \item Procurar alternativas melhores para cola no interior da armadilha, como fitas prega-rato ou fitas prega-mosca e ou incluir uma 
-        ventoinha abaixo da abertura para que o mosquito seja sugado para dentro da armadilha.
+        \item Analisar o uso de substâncias com cheiro atrativo para o mosquito, como por exemplo, a alfafa prensada.
+        \item Analisar a viabilidade de se trocar o sensor laser por um sensor sonoro, com aplicação de filtro para a frequência sonora de vôo do mosquito.
+        \item Procurar alternativas melhores para cola no interior da armadilha como: fitas prega-rato ou fitas prega-mosca e/ou incluir uma 
+        ventoinha abaixo da abertura, para que o mosquito seja sugado para dentro da armadilha.
     \end{itemize}
     \item Nível de aplicação
     \begin{itemize}
         \item Cadastrar o id da armadilha, nome e senha da rede wifi de maneira dinâmica.
-        \item Melhorar a aplicação para que seja possível cadastrar uma foto de perfil para o usuário
+        \item Melhorar a aplicação para que seja possível cadastrar uma foto de perfil para o usuário.
     \end{itemize}   
 \end{itemize}
 

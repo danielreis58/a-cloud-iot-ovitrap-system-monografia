@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: monografia.aux
+A level-1 auxiliary file: docreq/docreq.tex.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -24,7 +25,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 8 entries,
             6714 wiz_defined-function locations,
-            1238 strings with 10852 characters,
+            1239 strings with 10873 characters,
 and the built_in function-call counts, 5933 in all, are:
 = -- 487
 > -- 250

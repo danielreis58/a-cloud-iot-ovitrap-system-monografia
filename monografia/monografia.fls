@@ -182,6 +182,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq/docreq.tex.aux
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq/docreq.tex.aux
 OUTPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -331,12 +333,15 @@ INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monogr
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0609.jpg
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0609.jpg
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0609.jpg
+OUTPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq/docreq.tex.aux
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.bbl
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.bbl
 OUTPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.lof
 OUTPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.lot
 OUTPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.toc
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq/docreq.tex.aux
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq/docreq.tex.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb

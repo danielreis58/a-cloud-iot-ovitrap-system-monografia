@@ -35,6 +35,7 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Conclus\IeC {\~a}o e trabalhos futuros}}{36}{chapter.3}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{APENDICE A - DOCUMENTO DE REQUISITOS}{37}{chapter*.40}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{REFER\IeC {\^E}NCIAS}{38}{chapter*.41}
 \vspace {\cftbeforechapterskip }

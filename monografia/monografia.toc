@@ -16,26 +16,30 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Desenvolvimento}}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}A ideia inicial}{15}{section.2.1}
 \contentsline {section}{\numberline {2.2}Ovitrap}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Vaso maior}{20}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Vaso menor}{20}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Prato}{21}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Boleira}{22}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Tela mosquiteira}{23}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Breu}{24}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Palitos de churrasco e fitas hellerman}{24}{subsection.2.2.7}
-\contentsline {section}{\numberline {2.3}Hardware}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}NodeMCU}{27}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}VL53L0X (Time-of-Flight)}{27}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Software}{27}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Banco de dados}{28}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}API}{29}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Aplica\IeC {\c c}\IeC {\~a}o Cliente}{30}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Vis\IeC {\~a}o geral do sistema}{33}{section.2.5}
-\contentsline {section}{\numberline {2.6}Custos}{34}{section.2.6}
+\contentsline {subsection}{\numberline {2.2.1}Vaso maior}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Vaso menor}{19}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Prato}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Boleira}{21}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Tela mosquiteira}{22}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Breu}{23}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Palitos de churrasco e fitas hellerman}{23}{subsection.2.2.7}
+\contentsline {section}{\numberline {2.3}Hardware}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}NodeMCU}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}VL53L0X (Time-of-Flight)}{26}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Software}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Banco de dados}{27}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}API}{28}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Aplica\IeC {\c c}\IeC {\~a}o Cliente}{29}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Vis\IeC {\~a}o geral do sistema}{32}{section.2.5}
+\contentsline {section}{\numberline {2.6}Custos}{33}{section.2.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Conclus\IeC {\~a}o e trabalhos futuros}}{36}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Conclus\IeC {\~a}o e trabalhos futuros}}{35}{chapter.3}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{APENDICE A - DOCUMENTO DE REQUISITOS}{37}{chapter*.40}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{36}{chapter*.40}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{38}{chapter*.41}
+\contentsline {chapter}{APENDICE A - DOCUMENTO DE REQUISITOS}{37}{chapter*.41}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \vspace {\cftbeforechapterskip }

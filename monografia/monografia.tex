@@ -43,27 +43,17 @@
 \usepackage{adjustbox}
 
 
-% ---
-		
-% ---
-% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
-% ---
-\usepackage{lipsum}				% para geração de dummy text
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{pifont}
 
-% ---
+\usepackage[alf,abnt-etal-cite=2]{abntex2cite}	
 
-% ---
-% Pacotes de citações
-% ---
-%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf,abnt-etal-cite=2]{abntex2cite}	% Citações padrão ABNT
-
-% --- 
-% CONFIGURAÇÕES DE PACOTES
-% --- 
-
-% Infos do projeto
-%
+\def\myversion{2.0 }
+\date{}
 
 \newcommand{\thedepartment}{IMC - Instituto de Matemática e Computação}
 \newcommand{\thecourse}{Curso de Ciência da Computação}
@@ -221,16 +211,6 @@ it can be accessed remotely anywhere with Internet access.
 % ---
 
 % ---
-% inserir lista de quadros
-% ---
-\begin{comment}
-\pdfbookmark[0]{\listofquadrosname}{loq}
-\listofquadros*
-\cleardoublepage
-\end{comment}
-% ---
-
-% ---
 % inserir lista de tabelas
 % ---
 \pdfbookmark[0]{\listtablename}{lot}
@@ -250,20 +230,6 @@ it can be accessed remotely anywhere with Internet access.
   \item[MUI] Material-UI 
 Artificiais 
 \end{siglas}
-% ---
-
-\begin{comment}
-% ---
-% inserir lista de símbolos
-% ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
-\end{comment}
-% ---
 
 % ---
 % inserir o sumario
@@ -415,7 +381,7 @@ fator esse que levou a um terceiro teste que deu origem ao protótipo apresentad
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{imagens/fotoESP32.jpeg}
+    \includegraphics[scale=0.1]{imagens/fotoESP32.jpeg}
     \caption{Foto registrada pelo ESP32-CAM}
         \label{fig:fotoesp32}
         \legend{FONTE: Autor}
@@ -450,7 +416,7 @@ são atraídos por ovitraps totalmente pretas.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{imagens/tileshop.jpeg}
+\includegraphics[scale=0.7]{imagens/tileshop.jpeg}
 \caption{Padrões em ovitraps}
     \legend{Disponível em: \nolinkurl{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988764/figure/pone.0160386.g009/}. Acesso em: \today}
 \end{figure}
@@ -460,11 +426,9 @@ mais atrativas as fêmeas do mosquito
  que as ovitraps pequenas além de demandarem manutenções menos frequentes, uma vez que as ovitraps pequenas têm taxas de evaporação 
  de água muito maiores que as ovitraps maiores.
 
-\newpage
-
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
-\includegraphics[scale=0.09, angle=-90]{imagens/prototipo1_2.jpg}
+\includegraphics[scale=0.1, angle=-90]{imagens/prototipo1_2.jpg}
 \caption{Protótipo de ovitrap desenvolvida neste trabalho (sem sensores)}
     \legend{FONTE: Autor}
 \end{figure}
@@ -672,7 +636,7 @@ informações para o NodeMCU.
 \section{Software}
 
 Para receber e armazenar os dados provenientes das armadilhas foi desenvolvido uma API em NodeJS, utilizando o framework Express
-e banco de dados Postgre.
+e banco de dados Postgres.
 
 \begin{figure}[H]
 \centering
@@ -690,7 +654,7 @@ uma instância do Amazon EC2. A comunicação entre a aplicação cliente e a AP
 \subsection{Banco de dados}
 
 Para a tarefa de armazenar os dados provenientes das armadilhas das empresas/prefeituras e dos usuários da plataforma, 
-foi escolhido o banco relacional Postgre. A figura abaixo mostra o diagrama de tabelas do banco:
+foi escolhido o banco relacional Postgres. A figura abaixo mostra o diagrama de tabelas do banco:
 
 \begin{figure}[H]
 \centering
@@ -860,7 +824,7 @@ Abaixo temos a tabela completa de todos os materiais e valores, cotados na data 
 \end{center}
 
 Observamos a partir da tabela acima que o custo com componentes eletrônicos foi de R\$133,904 que representa 80,64\% do valor total do protótipo e que o custo com 
-com componentes estruturais foi de R\$32,15 que representa 19,36\% do valor total do protótipo.
+componentes estruturais foi de R\$32,15 que representa 19,36\% do valor total do protótipo.
 
 \chapter{Conclusão e trabalhos futuros}
 
@@ -891,17 +855,6 @@ Como trabalhos futuros temos os seguintes itens:
 
 
 % ----------------------------------------------------------
-% ELEMENTOS PÓS-TEXTUAIS
-% ----------------------------------------------------------
-\chapter*{APENDICE A - DOCUMENTO DE REQUISITOS}
-\addcontentsline{toc}{chapter}{APENDICE A - DOCUMENTO DE REQUISITOS}
-
-\include{docreq/docreq.tex}
-
-
-% ----------------------------------------------------------
-
-% ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
 
@@ -910,6 +863,16 @@ Como trabalhos futuros temos os seguintes itens:
 \renewcommand{\bibsection}{}
 \bibliography{bibliografia.bib}
 
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\chapter*{APENDICE A - DOCUMENTO DE REQUISITOS}
+\addcontentsline{toc}{chapter}{APENDICE A - DOCUMENTO DE REQUISITOS}
+
+\input{docreq}
+
+% ----------------------------------------------------------
 
 
 %---------------------------------------------------------------------

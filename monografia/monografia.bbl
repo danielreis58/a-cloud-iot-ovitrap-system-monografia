@@ -1,0 +1,48 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[EIRAS et al. 2014]{ALVARO2014}
+\abntrefinfo{EIRAS et al.}{EIRAS et al.}{2014}
+{EIRAS, A.~E.; BUHAGIAR, T.~S.; RITCHIE, S.~A. {Efficacy of Ovitrap Colors and
+  Patterns for Attracting Aedes albopictus at Suburban Field Sites in
+  North-Central Florida}.
+\emph{Journal of Medical Entomology, Volume 51, Issue 1, 1 January}, 2014.}
+
+\bibitem[Hoel et al. 2011]{DAVIDF2011}
+\abntrefinfo{Hoel et al.}{HOEL et al.}{2011}
+{HOEL, D.~F. et al. {Efficacy of Ovitrap Colors and Patterns for Attracting
+  Aedes albopictus at Suburban Field Sites in North-Central Florida}.
+\emph{Journal of the American Mosquito Control Association}, 2011.}
+
+\bibitem[Isa et al. 2019]{ISMALIZA2019}
+\abntrefinfo{Isa et al.}{ISA et al.}{2019}
+{ISA, I. et al. {An IoT-Based Ovitrap System Applied for Aedes Mosquito
+  Surveillance}.
+\emph{IJEAT}, Out 2019.}
+
+\bibitem[Johnson et al. 2017]{BRIANJJOHNSON2017}
+\abntrefinfo{Johnson et al.}{JOHNSON et al.}{2017}
+{JOHNSON, B.~J.; RITCHIE, S.~A.; FONSECA, D.~M. {The State of the Art of Lethal
+  Oviposition Trap-Based Mass Interventions for Arboviral Control}.
+\emph{Insects}, Jan 2017.}
+
+\bibitem[Lok et al. 1977]{LOK1977}
+\abntrefinfo{Lok et al.}{LOK et al.}{1977}
+{LOK et al. {An autocidal ovitrap for the control and possible eradication of
+  Aedes aegypti}.
+\emph{Southeast Asian J. Trop. Med. Publ. Health}, p. 2669--2677, 1977.}
+
+\bibitem[Paz-Soldan Josh~Yukich et al. 2016]{VALERIE2016}
+\abntrefinfo{Paz-Soldan Josh~Yukich et al.}{PAZ-SOLDAN JOSH~YUKICH et
+  al.}{2016}
+{PAZ-SOLDAN JOSH~YUKICH, A.~S. V.~A. et al. {Design and Testing of Novel Lethal
+  Ovitrap to Reduce Populations of Aedes Mosquitoes Community-Based
+  Participatory Research between Industry Academia and Communities in Peru and
+  Thailand}.
+\emph{Plos One}, n. 0160386, Aug 2016.}
+
+\end{thebibliography}

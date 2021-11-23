@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.11.18)  22 NOV 2021 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.11.18)  23 NOV 2021 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia"
+**"/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.tex"
 (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 4 language(s) loaded.
@@ -1071,27 +1071,26 @@ Package: relsize 2013/03/29 ver 4.1
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks36
-)
-No file monografia.aux.
+) (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux)
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 120.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 82.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1100,10 +1099,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 120.
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 \myptabbox=\box43
 \myptabboxwidth=\skip273
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1131,7 +1130,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 120.
+LaTeX Info: Redefining \microtypecontext on input line 82.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1168,257 +1167,229 @@ Package pdftex.def Info: ./imagens/logo_unifei.png  used on input line 21.
 
 ] [5
 
-] [6
+] (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.lof (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+) [6
 
-] [7
+] (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.lot) [7
 
 ] [8
 
 
-] [9
+] (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 10.
+) [9
 
 ]
-
-LaTeX Warning: Citation `ISMALIZA2019' on page 12 undefined on input line 431.
-
-
-LaTeX Warning: Citation `LOK1977' on page 12 undefined on input line 432.
-
-
-LaTeX Warning: Citation `LOK1977' on page 12 undefined on input line 437.
-
-<imagens/ovitrapLoki.jpg, id=64, 115.632pt x 166.4619pt>
+<imagens/ovitrapLoki.jpg, id=188, 115.632pt x 166.4619pt>
 File: imagens/ovitrapLoki.jpg Graphic file (type jpg)
 <use imagens/ovitrapLoki.jpg>
-Package pdftex.def Info: imagens/ovitrapLoki.jpg  used on input line 444.
+Package pdftex.def Info: imagens/ovitrapLoki.jpg  used on input line 304.
 (pdftex.def)             Requested size: 185.01144pt x 266.33936pt.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 447.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 447.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 447.
+ [12
 
 
-LaTeX Warning: Citation `BRIANJJOHNSON2017' on page 12 undefined on input line 455.
-
-
-LaTeX Warning: Citation `BRIANJJOHNSON2017' on page 12 undefined on input line 456.
-
-
-LaTeX Warning: Citation `BRIANJJOHNSON2017' on page 12 undefined on input line 458.
-
-[12
-
-
- <./imagens/ovitrapLoki.jpg>]
-<imagens/exemplosovitraps.png, id=73, 1237.62375pt x 695.59875pt>
+ </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpg>]
+<imagens/exemplosovitraps.png, id=201, 1237.62375pt x 695.59875pt>
 File: imagens/exemplosovitraps.png Graphic file (type png)
 <use imagens/exemplosovitraps.png>
-Package pdftex.def Info: imagens/exemplosovitraps.png  used on input line 464.
+Package pdftex.def Info: imagens/exemplosovitraps.png  used on input line 324.
 (pdftex.def)             Requested size: 371.29pt x 208.68123pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \T1/qtm/m/n/12 (+20) of _ Lethal _ Oviposition _ Trap-[]Based _ Mass _ Interventions _ for _ Arboviral _ Control / ^^\gures>[]$.
  []
 
-
-LaTeX Warning: Citation `BRIANJJOHNSON2017' on page 13 undefined on input line 474.
-
-
-LaTeX Warning: Citation `ISMALIZA2019' on page 13 undefined on input line 481.
-
-<imagens/smartovitrap.png, id=75, 329.23pt x 441.65pt>
+<imagens/smartovitrap.png, id=207, 329.23pt x 441.65pt>
 File: imagens/smartovitrap.png Graphic file (type png)
 <use imagens/smartovitrap.png>
-Package pdftex.def Info: imagens/smartovitrap.png  used on input line 485.
+Package pdftex.def Info: imagens/smartovitrap.png  used on input line 345.
 (pdftex.def)             Requested size: 131.68965pt x 176.65686pt.
-<imagens/smartovitrap2.png, id=76, 354.32375pt x 365.365pt>
+<imagens/smartovitrap2.png, id=208, 354.32375pt x 365.365pt>
 File: imagens/smartovitrap2.png Graphic file (type png)
 <use imagens/smartovitrap2.png>
-Package pdftex.def Info: imagens/smartovitrap2.png  used on input line 486.
+Package pdftex.def Info: imagens/smartovitrap2.png  used on input line 346.
 (pdftex.def)             Requested size: 177.16144pt x 182.68205pt.
-[13 <./imagens/exemplosovitraps.png>] [14 <./imagens/smartovitrap.png> <./imagens/smartovitrap2.png>]
-LaTeX Font Info:    Try loading font information for OMS+qtm on input line 517.
-LaTeX Font Info:    No file OMSqtm.fd. on input line 517.
+[13 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png>] [14 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png>]
+<imagens/IMG_8989.jpg, id=221, 4047.12pt x 3035.34pt>
+File: imagens/IMG_8989.jpg Graphic file (type jpg)
+<use imagens/IMG_8989.jpg>
+Package pdftex.def Info: imagens/IMG_8989.jpg  used on input line 383.
+(pdftex.def)             Requested size: 364.22508pt x 273.16881pt.
+ [15
+
+ </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_8989.jpg>]
+<imagens/larvasMosquitos.png, id=227, 1961.3275pt x 563.10374pt>
+File: imagens/larvasMosquitos.png Graphic file (type png)
+<use imagens/larvasMosquitos.png>
+Package pdftex.def Info: imagens/larvasMosquitos.png  used on input line 405.
+(pdftex.def)             Requested size: 392.25854pt x 112.61874pt.
+<imagens/fotoESP32.jpeg, id=228, 1606.0pt x 1204.5pt>
+File: imagens/fotoESP32.jpeg Graphic file (type jpg)
+<use imagens/fotoESP32.jpeg>
+Package pdftex.def Info: imagens/fotoESP32.jpeg  used on input line 418.
+(pdftex.def)             Requested size: 321.19432pt x 240.89574pt.
+ [16 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/larvasMosquitos.png>]
+LaTeX Font Info:    Try loading font information for OMS+qtm on input line 427.
+LaTeX Font Info:    No file OMSqtm.fd. on input line 427.
 
 
 LaTeX Font Warning: Font shape `OMS/qtm/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 517.
+(Font)              for symbol `textbullet' on input line 427.
 
-
-LaTeX Warning: Citation `DAVIDF2011' on page 15 undefined on input line 538.
-
-
-LaTeX Warning: Citation `VALERIE2016' on page 15 undefined on input line 538.
-
-
-LaTeX Warning: Citation `RITCHIE2004' on page 15 undefined on input line 542.
-
-<imagens/tileshop.jpeg, id=92, 418.56375pt x 287.0725pt>
+[17 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/fotoESP32.jpeg>]
+<imagens/tileshop.jpeg, id=243, 418.56375pt x 287.0725pt>
 File: imagens/tileshop.jpeg Graphic file (type jpg)
 <use imagens/tileshop.jpeg>
-Package pdftex.def Info: imagens/tileshop.jpeg  used on input line 546.
+Package pdftex.def Info: imagens/tileshop.jpeg  used on input line 453.
 (pdftex.def)             Requested size: 334.85144pt x 229.65831pt.
-[15
-
-]
-
-LaTeX Warning: Citation `BRIANJJOHNSON2017' on page 16 undefined on input line 551.
-
-[16 <./imagens/tileshop.jpeg>]
-<imagens/prototipo1_2.jpg, id=106, 4047.12pt x 3035.34pt>
+ [18 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/tileshop.jpeg>]
+<imagens/prototipo1_2.jpg, id=253, 4047.12pt x 3035.34pt>
 File: imagens/prototipo1_2.jpg Graphic file (type jpg)
 <use imagens/prototipo1_2.jpg>
-Package pdftex.def Info: imagens/prototipo1_2.jpg  used on input line 560.
+Package pdftex.def Info: imagens/prototipo1_2.jpg  used on input line 467.
 (pdftex.def)             Requested size: 364.22508pt x 273.16881pt.
-
-
-LaTeX Warning: Citation `ALVARO2014' on page 17 undefined on input line 569.
-
-<imagens/IMG_0598.jpg, id=107, 4047.12pt x 3035.34pt>
+<imagens/IMG_0598.jpg, id=256, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0598.jpg Graphic file (type jpg)
 <use imagens/IMG_0598.jpg>
-Package pdftex.def Info: imagens/IMG_0598.jpg  used on input line 582.
+Package pdftex.def Info: imagens/IMG_0598.jpg  used on input line 489.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
-[17 <./imagens/prototipo1_2.jpg>]
-<imagens/IMG_0600.jpg, id=113, 4047.12pt x 3035.34pt>
+ [19 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/prototipo1_2.jpg>]
+<imagens/IMG_0600.jpg, id=262, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0600.jpg Graphic file (type jpg)
 <use imagens/IMG_0600.jpg>
-Package pdftex.def Info: imagens/IMG_0600.jpg  used on input line 601.
+Package pdftex.def Info: imagens/IMG_0600.jpg  used on input line 508.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
- [18 <./imagens/IMG_0598.jpg> <./imagens/IMG_0600.jpg>]
-<imagens/IMG_0599.jpg, id=122, 4047.12pt x 3035.34pt>
+ [20 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0598.jpg> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0600.jpg>]
+<imagens/IMG_0599.jpg, id=267, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0599.jpg Graphic file (type jpg)
 <use imagens/IMG_0599.jpg>
-Package pdftex.def Info: imagens/IMG_0599.jpg  used on input line 619.
+Package pdftex.def Info: imagens/IMG_0599.jpg  used on input line 526.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
-<imagens/IMG_0597.jpg, id=123, 4047.12pt x 3035.34pt>
+<imagens/IMG_0597.jpg, id=268, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0597.jpg Graphic file (type jpg)
 <use imagens/IMG_0597.jpg>
-Package pdftex.def Info: imagens/IMG_0597.jpg  used on input line 637.
+Package pdftex.def Info: imagens/IMG_0597.jpg  used on input line 544.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
-<imagens/IMG_0603.jpg, id=124, 4047.12pt x 3035.34pt>
+<imagens/IMG_0603.jpg, id=269, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0603.jpg Graphic file (type jpg)
 <use imagens/IMG_0603.jpg>
-Package pdftex.def Info: imagens/IMG_0603.jpg  used on input line 644.
+Package pdftex.def Info: imagens/IMG_0603.jpg  used on input line 551.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
- [19 <./imagens/IMG_0599.jpg>]
-<imagens/IMG_0602.jpg, id=131, 4047.12pt x 3035.34pt>
+ [21 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0599.jpg>]
+<imagens/IMG_0602.jpg, id=275, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0602.jpg Graphic file (type jpg)
 <use imagens/IMG_0602.jpg>
-Package pdftex.def Info: imagens/IMG_0602.jpg  used on input line 662.
+Package pdftex.def Info: imagens/IMG_0602.jpg  used on input line 569.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
-<imagens/IMG_0610.jpg, id=132, 4047.12pt x 3035.34pt>
+<imagens/IMG_0610.jpg, id=276, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0610.jpg Graphic file (type jpg)
 <use imagens/IMG_0610.jpg>
-Package pdftex.def Info: imagens/IMG_0610.jpg  used on input line 669.
+Package pdftex.def Info: imagens/IMG_0610.jpg  used on input line 576.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
- [20 <./imagens/IMG_0597.jpg> <./imagens/IMG_0603.jpg>]
-<imagens/IMG_0601.jpg, id=140, 4047.12pt x 3035.34pt>
+ [22 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0597.jpg> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0603.jpg>]
+<imagens/IMG_0601.jpg, id=281, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0601.jpg Graphic file (type jpg)
 <use imagens/IMG_0601.jpg>
-Package pdftex.def Info: imagens/IMG_0601.jpg  used on input line 681.
+Package pdftex.def Info: imagens/IMG_0601.jpg  used on input line 588.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
- [21 <./imagens/IMG_0602.jpg> <./imagens/IMG_0610.jpg>]
-<imagens/IMG_0604.jpg, id=149, 4047.12pt x 3035.34pt>
+ [23 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0602.jpg> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0610.jpg>]
+<imagens/IMG_0604.jpg, id=286, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0604.jpg Graphic file (type jpg)
 <use imagens/IMG_0604.jpg>
-Package pdftex.def Info: imagens/IMG_0604.jpg  used on input line 697.
+Package pdftex.def Info: imagens/IMG_0604.jpg  used on input line 604.
 (pdftex.def)             Requested size: 161.85722pt x 121.39291pt.
- [22 <./imagens/IMG_0601.jpg> <./imagens/IMG_0604.jpg>]
-<imagens/IMG_0606.jpg, id=159, 4047.12pt x 3035.34pt>
+ [24 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0601.jpg> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0604.jpg>]
+<imagens/IMG_0606.jpg, id=292, 4047.12pt x 3035.34pt>
 File: imagens/IMG_0606.jpg Graphic file (type jpg)
 <use imagens/IMG_0606.jpg>
-Package pdftex.def Info: imagens/IMG_0606.jpg  used on input line 716.
+Package pdftex.def Info: imagens/IMG_0606.jpg  used on input line 623.
 (pdftex.def)             Requested size: 364.22508pt x 273.16881pt.
-<imagens/EsquemaHardware.png, id=160, 487.421pt x 448.074pt>
+<imagens/EsquemaHardware.png, id=293, 487.421pt x 448.074pt>
 File: imagens/EsquemaHardware.png Graphic file (type png)
 <use imagens/EsquemaHardware.png>
-Package pdftex.def Info: imagens/EsquemaHardware.png  used on input line 728.
+Package pdftex.def Info: imagens/EsquemaHardware.png  used on input line 635.
 (pdftex.def)             Requested size: 438.67484pt x 403.26286pt.
- [23 <./imagens/IMG_0606.jpg>]
-<imagens/nodemcu.png, id=167, 2509.375pt x 1604.99625pt>
+ [25 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0606.jpg>]
+<imagens/nodemcu.png, id=298, 2509.375pt x 1604.99625pt>
 File: imagens/nodemcu.png Graphic file (type png)
 <use imagens/nodemcu.png>
-Package pdftex.def Info: imagens/nodemcu.png  used on input line 743.
+Package pdftex.def Info: imagens/nodemcu.png  used on input line 650.
 (pdftex.def)             Requested size: 150.556pt x 96.29561pt.
- [24 <./imagens/EsquemaHardware.png>]
-<imagens/gy-vl53l0x.jpg, id=174, 585.18625pt x 552.0625pt>
+ [26 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/EsquemaHardware.png>]
+<imagens/gy-vl53l0x.jpg, id=304, 585.18625pt x 552.0625pt>
 File: imagens/gy-vl53l0x.jpg Graphic file (type jpg)
 <use imagens/gy-vl53l0x.jpg>
-Package pdftex.def Info: imagens/gy-vl53l0x.jpg  used on input line 757.
+Package pdftex.def Info: imagens/gy-vl53l0x.jpg  used on input line 664.
 (pdftex.def)             Requested size: 58.52205pt x 55.20947pt.
-<imagens/diagramacloud.png, id=175, 624.3325pt x 232.87pt>
+<imagens/diagramacloud.png, id=305, 624.3325pt x 232.87pt>
 File: imagens/diagramacloud.png Graphic file (type png)
 <use imagens/diagramacloud.png>
-Package pdftex.def Info: imagens/diagramacloud.png  used on input line 773.
+Package pdftex.def Info: imagens/diagramacloud.png  used on input line 680.
 (pdftex.def)             Requested size: 374.60239pt x 139.72307pt.
- [25 <./imagens/nodemcu.png> <./imagens/gy-vl53l0x.jpg>]
-<imagens/EsquemaBanco.png, id=185, 710.655pt x 661.47125pt>
+ [27 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/nodemcu.png> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/gy-vl53l0x.jpg>]
+<imagens/EsquemaBanco.png, id=311, 710.655pt x 661.47125pt>
 File: imagens/EsquemaBanco.png Graphic file (type png)
 <use imagens/EsquemaBanco.png>
-Package pdftex.def Info: imagens/EsquemaBanco.png  used on input line 791.
+Package pdftex.def Info: imagens/EsquemaBanco.png  used on input line 698.
 (pdftex.def)             Requested size: 355.32663pt x 330.73482pt.
- [26 <./imagens/diagramacloud.png>] [27 <./imagens/EsquemaBanco.png>]
-<imagens/front_1.png, id=201, 1903.11pt x 991.705pt>
+ [28 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/diagramacloud.png>] [29 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/EsquemaBanco.png>]
+<imagens/front_1.png, id=322, 1903.11pt x 991.705pt>
 File: imagens/front_1.png Graphic file (type png)
 <use imagens/front_1.png>
-Package pdftex.def Info: imagens/front_1.png  used on input line 825.
+Package pdftex.def Info: imagens/front_1.png  used on input line 732.
 (pdftex.def)             Requested size: 380.61526pt x 198.33748pt.
-<imagens/front_2.png, id=202, 1901.1025pt x 991.705pt>
+<imagens/front_2.png, id=323, 1901.1025pt x 991.705pt>
 File: imagens/front_2.png Graphic file (type png)
 <use imagens/front_2.png>
-Package pdftex.def Info: imagens/front_2.png  used on input line 833.
+Package pdftex.def Info: imagens/front_2.png  used on input line 740.
 (pdftex.def)             Requested size: 380.21376pt x 198.33748pt.
- [28 <./imagens/front_1.png> <./imagens/front_2.png>]
-<imagens/front_5.png, id=212, 706.64pt x 765.86125pt>
+ [30 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/front_1.png> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/front_2.png>]
+<imagens/front_5.png, id=330, 706.64pt x 765.86125pt>
 File: imagens/front_5.png Graphic file (type png)
 <use imagens/front_5.png>
-Package pdftex.def Info: imagens/front_5.png  used on input line 846.
+Package pdftex.def Info: imagens/front_5.png  used on input line 753.
 (pdftex.def)             Requested size: 353.31914pt x 382.92969pt.
-<imagens/front_4.png, id=213, 1901.1025pt x 991.705pt>
+<imagens/front_4.png, id=331, 1901.1025pt x 991.705pt>
 File: imagens/front_4.png Graphic file (type png)
 <use imagens/front_4.png>
-Package pdftex.def Info: imagens/front_4.png  used on input line 857.
+Package pdftex.def Info: imagens/front_4.png  used on input line 764.
 (pdftex.def)             Requested size: 380.21376pt x 198.33748pt.
- [29 <./imagens/front_5.png>]
-<imagens/front_3.png, id=220, 1900.09875pt x 991.705pt>
+ [31 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/front_5.png>]
+<imagens/front_3.png, id=337, 1900.09875pt x 991.705pt>
 File: imagens/front_3.png Graphic file (type png)
 <use imagens/front_3.png>
-Package pdftex.def Info: imagens/front_3.png  used on input line 872.
+Package pdftex.def Info: imagens/front_3.png  used on input line 779.
 (pdftex.def)             Requested size: 380.01302pt x 198.33748pt.
-<imagens/diagramacloudarmadilha.png, id=221, 624.3325pt x 443.6575pt>
+<imagens/diagramacloudarmadilha.png, id=338, 624.3325pt x 443.6575pt>
 File: imagens/diagramacloudarmadilha.png Graphic file (type png)
 <use imagens/diagramacloudarmadilha.png>
-Package pdftex.def Info: imagens/diagramacloudarmadilha.png  used on input line 885.
+Package pdftex.def Info: imagens/diagramacloudarmadilha.png  used on input line 792.
 (pdftex.def)             Requested size: 374.60239pt x 266.19655pt.
- [30 <./imagens/front_4.png> <./imagens/front_3.png>]
+ [32 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/front_4.png> </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/front_3.png>]
+<imagens/IMG_0609.jpg, id=345, 4047.12pt x 3035.34pt>
+File: imagens/IMG_0609.jpg Graphic file (type jpg)
+<use imagens/IMG_0609.jpg>
+Package pdftex.def Info: imagens/IMG_0609.jpg  used on input line 806.
+(pdftex.def)             Requested size: 364.22508pt x 273.16881pt.
+ [33 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/diagramacloudarmadilha.png>] [34 </home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_0609.jpg>] [35] [36
 
-/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.tex:917: Package inputenc Error: Unicode char ² (U+B2)
-(inputenc)                not set up for use with LaTeX.
+] [37
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.917             Tela com velcro & 1,95 & m²
-                                               & 12,99 & 6,66 & 0,066 & 0,44 \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[31 <./imagens/diagramacloudarmadilha.png>] [32] [33
-
-] [34
-
-]
+] (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.bbl
+bibitemlist
+)
 No file monografia.ind.
-[35
+[38
 
 ]
 \tf@lof=\write4
@@ -1430,36 +1401,33 @@ No file monografia.ind.
 \tf@toc=\write6
 \openout6 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 992.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 992.
- (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 992.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 992.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 921.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 921.
+ (/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 921.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 921.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 992.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 921.
  ) 
 Here is how much of TeX's memory you used:
- 17561 strings out of 494903
- 263976 string characters out of 6179960
- 536864 words of memory out of 5000000
- 20423 multiletter control sequences out of 15000+600000
- 53885 words of font info for 81 fonts, out of 8000000 for 9000
+ 17650 strings out of 494903
+ 266800 string characters out of 6179960
+ 541022 words of memory out of 5000000
+ 20474 multiletter control sequences out of 15000+600000
+ 54925 words of font info for 87 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 47i,13n,77p,722b,625s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on monografia.pdf (33 pages, 12934201 bytes).
+ 47i,13n,77p,728b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on "/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.pdf" (36 pages, 15283920 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 18837 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 532 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 19377 words of extra memory for PDF output out of 20736 (max. 10000000)
 

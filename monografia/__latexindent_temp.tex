@@ -1,40 +1,3 @@
-%% Esse arquivo é uma versão inicial do template do formato de dissertação do curso de Sistemas de Informação da UNIFEI.
-
-%% Utilizei como base o template do abntex2. Algumas das coisas implementadas por eles não funcionaram muito bem comigo, mas é um template excelente. No código estão todos os créditos.
-
-%% Como todo bom código inacabado, esse também tem "gambiarras" que eu criei para conseguir ter o trabalho no formato esperado. Espero poder um dia corrigir todas elas e disponibilizar um template mais apresentável.
-
-%% Mantive o texto integral do meu TFG. Acredito que assim fica mais fácil entender onde adicionar o que.
-
-%% Qualquer dúvida, me mande um email: flaviomota@unifei.edu.br
-
-%% abtex2-modelo-trabalho-academico.tex, v<VERSION> laurocesar
-%% Copyright 2012-<COPYRIGHT_YEAR> by abnTeX2 group at http://www.abntex.net.br/ 
-%%
-%% This work may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%   http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2005/12/01 or later.
-%%
-%% This work has the LPPL maintenance status `maintained'.
-%% 
-%% The Current Maintainer of this work is the abnTeX2 team, led
-%% by Lauro César Araujo. Further information are available on 
-%% http://www.abntex.net.br/
-%%
-
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
-% mestrado e trabalhos monograficos em geral) em conformidade com 
-% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
-% Apresentacao
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-
 \documentclass[
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
@@ -78,7 +41,6 @@
 \usepackage{longtable}
 \usepackage{float}
 \usepackage{adjustbox}
-
 
 
 % ---
@@ -168,16 +130,8 @@ Ciência da Computação, sob orientação da Prof. Dr. Adler Diniz de Souza}
 \renewcommand{\ABNTEXsubsectionfontsize}{\small}
 
 
-
-
-
-
 \setfloatlocations{quadro}{hbtp} % Ver https://github.com/abntex/abntex2/issues/176
-% ---
-
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
+ 
 
 % Recuo dos parágrafos
 \setlength{\parindent}{0cm}
@@ -185,16 +139,6 @@ Ciência da Computação, sob orientação da Prof. Dr. Adler Diniz de Souza}
 \setlength\afterchapskip{\lineskip}
  % Controle do espaçamento entre um capitulo e um parágrafos tente também \onelineskip
 \setlength{\parskip}{0.2cm} 
-
-% ---
-% compila o indice
-% ---
-
-% ---
-
-% ----
-% Início do documento
-% ----
 
 \pagenumbering{roman}
 % Seleciona o idioma do documento (conforme pacotes do babel)
@@ -204,90 +148,11 @@ Ciência da Computação, sob orientação da Prof. Dr. Adler Diniz de Souza}
 % Retira espaço extra obsoleto entre as frases.
 \frenchspacing 
 
-% ----------------------------------------------------------
-% ELEMENTOS PRÉ-TEXTUAIS
-% ----------------------------------------------------------
-% \pretextual
-
-% ---
-% Capa
-%% !!!!! A T E N Ç Ã O !!!!
-
-%% !!!!! Solução para inserir a capa no formato da UNIFEI
-
-%% Utilizando o word ou google docs, preencha as informações da capa do template que está em NORMA TFG SIN. Depois exporte a capa no formato PDF e adicione o arquivo ao projeto aqui do overleaf. 
-% ---
-
-% ---
-
-% ---
-% Folha de rosto
-% (o * indica que haverá a ficha bibliográfica)
-% ---
-
-% ---
-
-%% !!!!! A T E N Ç Ã O !!!!
-%% --->>>>> NOSSO MODELO NÃO TEM FICHA BIBLIOGRÁFICA
-% ---
-% Inserir a ficha bibliográfica
-% ---
-
-% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
-% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
-% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
-% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
-% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
-% o conteúdo de implementação deste arquivo pelo comando abaixo:
-%
-% \begin{fichacatalografica}
-%     \includepdf{fig_ficha_catalografica.pdf}
-% \end{fichacatalografica}
-
-%\begin{fichacatalografica}
-%	\sffamily
-%	\vspace*{\fill}					% Posição vertical
-%	\begin{center}					% Minipage Centralizado
-%	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
-%	\small
-%	\imprimirautor
-%	%Sobrenome, Nome do autor
-%	
-%	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
-%	\imprimirlocal, \imprimirdata-
-%	
-%	\hspace{0.5cm} \thelastpage p. : il. (algumas color.) ; 30 cm.\\
-%	
-%	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
-	
-%	\hspace{0.5cm}
-%	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
-%	\imprimirdata.}\\
-	
-%	\hspace{0.5cm}
-%		1. Palavra-chave1.
-%		2. Palavra-chave2.
-%		2. Palavra-chave3.
-%		I. Orientador.
-%		II. Universidade xxx.
-%		III. Faculdade de xxx.
-%		IV. Título 			
-%	\end{minipage}}
-%	\end{center}
-%\end{fichacatalografica}
-% ---
-
-% ---
-% Inserir errata
-% ---
-
-
-% ---
 \newpage
 \begin{epigrafe}
     \vspace*{\fill}
 	\begin{flushright}
-		\textit{"O insucesso é apenas uma oportunidade para recomeçar com mais inteligência\\
+		\textit{"O insucesso é apenas uma oportunidade para recomeçar com mais inteligência"\\
 		(Henry Ford)}
 	\end{flushright}
 \end{epigrafe}
@@ -298,7 +163,7 @@ Ciência da Computação, sob orientação da Prof. Dr. Adler Diniz de Souza}
 
 \begin{agradecimentos}
 Agradeço aos meus pais, por me darem a oportunidade do estudo, à todos os meus professores e amigos por partilharem o conhecimento 
-comigo por poder estar concluindo esse ciclo.
+comigo e por poder estar concluindo esse ciclo.
 
 \end{agradecimentos}
 % ---
@@ -317,14 +182,14 @@ comigo por poder estar concluindo esse ciclo.
 \begin{resumo}
 
 A intensificação dos arbovírus (dengue, zika, chikungunya, etc) destaca a necessidade de um controle eficaz do seu vetor de transmissão, 
-o mosquito Aedes. Para isso foram criadas as Ovitrap, armadilhas que capturam os ovos depositados pelas fêmeas impedindo a multiplicação 
-da população de mosquitos. Apesar dos vários modelos de Ovitraps existentes poucos ou quase nenhum deles aplicam algum conceito de tecnologia
+o mosquito Aedes. Para isso, foram criadas as Ovitraps, armadilhas que capturam os ovos depositados pelas fêmeas impedindo a multiplicação 
+da população de mosquitos. Apesar dos vários modelos de Ovitraps existentes poucos, ou quase nenhum deles, aplicam algum conceito de tecnologia
  em seu desenvolvimento, tais modelos necessitam de um profissional que realize o trabalho de campo de coleta das armadilhas e de um 
  profissional para análise dos dados coletados. Este trabalho busca desenvolver uma ovitrap que facilite o trabalho de campo de coleta 
- e de analise dos dados. Para isso aplica modelos de IoT no desenvolvimento de uma ovitrap "inteligente" capaz de capturar os dados e 
- disponibiliza-los na nuvem para que possam ser acessados de maneira remota em qualquer lugar com acesso a Internet.
+ e de analise dos dados. Aplicando modelos de IoT no desenvolvimento de uma ovitrap "inteligente" capaz de capturar os dados e 
+ disponibiliza-los na nuvem para que possam ser acessados de maneira remota em qualquer lugar com acesso a internet.
 
-\textbf{Palavras-chave}:  Armadilha, Ovitrap, IoT, Dengue, Zika, Chikungunya
+\textbf{Palavras-chave}:  Armadilha, Ovitrap, IoT, Dengue, Zika e Chikungunya.
 
 \end{resumo}
 
@@ -340,7 +205,7 @@ analyze the collected data. This work seeks to develop a platform that facilitat
 this, IoT models are applied in the development of a "smart" device capable of capturing data and making it available in the cloud so that 
 it can be accessed remotely anywhere with Internet access.
 
-\textbf{Palavras-chave}: Traps, Ovitrap, IoT, Dengue, Zika, Chikungunya
+\textbf{Palavras-chave}: Traps, Ovitrap, IoT, Dengue, Zika and Chikungunya.
 
 \end{otherlanguage*}
 \end{resumo}
@@ -415,16 +280,11 @@ Artificiais
 % ----------------------------------------------------------
 \textual
 
-% ----------------------------------------------------------
-% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
-% ----------------------------------------------------------
-%altera a paginação
-
 \pagenumbering{arabic}
 \setcounter{page}{12}
 
 \chapter{Introdução}
-A intensificação dos arbovírus (dengue, zika, chikungunya, etc) destaca a necessidade de
+A intensificação dos arbovírus (dengue, zika, chikungunya etc) destaca a necessidade de
 um controle eficaz do seu vetor de transmissão, o mosquito Aedes. A principal
 medida de prevenção dos arbovírus é o controle da população do mosquito. A
 implementação de medidas preventivas requer ferramentas de vigilância eficientes que
@@ -511,6 +371,56 @@ armadilhas. Este tempo poderia ser reduzido utilizando a solução proposta por 
 bem como a localização de cada armadilha é mostrada em um mapa, facilitando a análise e posterior tomada de decisão.
 
 \chapter{Desenvolvimento}
+
+\section{A ideia inicial}
+
+A princípio a ideia inicial deste trabalho era desenvolver uma armadilha que pudesse além de capturar, também fotografar os mosquitos, para depois aplicar processamento digital de 
+imagens e catalogar as espécies de mosquitos fotografadas. E se não bastasse isso, também havia uma câmera submersa na água da armadilha para que fosse possível 
+fotografar as larvas do mosquito.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.09, angle=-90]{imagens/IMG_8989.jpg}
+    \caption{Primeiros testes}
+        \label{fig:aprincipio}
+        \legend{FONTE: Autor}
+    \end{figure}
+
+A figura acima é primeira foto do desenvolvimento deste trabalho, ela mostra um módulo NodeMCU, um sensor laser (o mesmo usado no protótipo final), 
+um sensor ultrassônico, um módulo ESP32-CAM e uma câmera GoPro. A foto foi tirada no primeiro de vários testes. 
+
+O primeiro teste consistia em ter duas câmeras, uma para fotografar 
+os mosquitos (ESP32-CAM), e uma para as larvas (GoPro). A câmera GoPro possui um web server integrado, onde é possível, via requisições HTTP, tirar fotos, gravar vídeos e controlar 
+várias outras funções da câmera, o ESP32-CAM tambem possui wi-fi integrado, então neste primeiro modelo, a câmera esp era ativada pelo sensor laser, e GoPro era ativada a cada 1 hora, 
+lembre-se que a GoPro ficaria submersa e seria responsável por fotografar o desenvolvimento das larvas do mosquito. 
+Uma das dificuldades encontradas neste primeiro modelo era que além de se conectar com o web server da GoPro, 
+o modulo ESP32-CAM também se conectava com uma rede Wifi externa, através da qual enviava as fotos via requisição HTTP para API. 
+O tempo de envio das fotos da GoPro para API era um pouco lento devido a alta resolução das fotos, já o tempo do ESP32 era aceitável. 
+Outro ponto era que essas fotos ficavam armazenadas em um cartão Micro-SD no módulo ESP32-CAM. O fato de ter que conectar em duas redes diferentes, 
+ter de usar um cartão Micro-SD, além do custo do projeto ficar elevado devido a GoPro, foi desenvolvido um segundo teste sem a GoPro, apenas 
+com o ESP32-CAM e o sensor laser.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{imagens/larvasMosquitos.png}
+    \caption{Esquema de pastas de fotos para larvas e mosquitos no Amazon S3}
+        \label{fig:larvasMosquitos}
+        \legend{FONTE: Autor}
+    \end{figure}
+
+Neste segundo teste havia apenas uma câmera ESP32-CAM, utilizando um cartão Micro-SD e fixada no teto da armadilha, o fato de usar apenas uma câmera eliminou a necessidade 
+de se conectar em duas redes diferentes e o tempo de upload de arquivos para API era menor que do primeiro teste, uma vez que as fotos tiradas pelo ESP32-CAM
+tem no máximo 2MB de resolução, se por um lado isso é bom para comunicação com a API, por outro lado é ruim, pois é praticamente impossível detectar um mosquito na foto registrada. 
+Fator esse que levou a um terceiro teste que deu origem ao protótipo apresentado a seguir. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{imagens/fotoESP32.jpeg}
+    \caption{Foto registrada pelo ESP32-CAM}
+        \label{fig:fotoesp32}
+        \legend{FONTE: Autor}
+    \end{figure}
+
 Nesta seção busca-se descrever as etapas de desenvolvimento da solução proposta. O desenvolvimento se dividiu em três frentes:
 
 \begin{itemize}
@@ -521,11 +431,11 @@ Nesta seção busca-se descrever as etapas de desenvolvimento da solução propo
     \item Hardware:
         \begin{itemize}
         \item Contar quantos mosquitos passaram pela armadilha.
-        \item Enviar dados coletados com respectiva geolocalização da armadilha de maneira segura para uma API.
+        \item Enviar dados coletados com respectiva a geolocalização da armadilha de maneira segura para uma API.
         \end{itemize}
     \item Software:
         \begin{itemize}
-        \item Desenvolver uma API para receber dados de múltiplas armadilhas trata-los e armazena-los de maneira segura em um 
+        \item Desenvolver uma API para receber dados de múltiplas armadilhas tratá-los e armazená-los de maneira segura em um 
         banco de dados.
         \item Disponibilizar os dados armazenados para que sejam consumidos por outras aplicações.
         \item Desenvolver uma aplicação web para consumir os dados fornecidos pela API.
@@ -533,13 +443,10 @@ Nesta seção busca-se descrever as etapas de desenvolvimento da solução propo
 \end{itemize}
 
 \section{Ovitrap}
-Um dos grandes desafios ao se desenvolver uma ovitrap é torna-la atraente para as fêmeas do mosquito, isto é, fazer com que a fêmea 
+Um dos grandes desafios ao se desenvolver uma ovitrap é torná-la atraente para as fêmeas do mosquito, isto é, fazer com que a fêmea 
 do mosquito deposite seus ovos na ovitrap 
 e não em outro lugar próximo a ela. Testes feitos por \cite{DAVIDF2011} e \cite{VALERIE2016} constataram que os mosquitos fêmeas 
 são atraídos por ovitraps totalmente pretas.
-Outra forma de atrair as femeas do mosquito além da propria água, é utilizar substâncias com cheiro atrativo para o mosquito, como 
-por exemplo a
-alfafa prensada, 10mg por litro de água \cite{RITCHIE2004}.
 
 \begin{figure}[H]
 \centering
@@ -550,7 +457,7 @@ alfafa prensada, 10mg por litro de água \cite{RITCHIE2004}.
 
 Outro ponto relevante ao se projetar uma ovitrap é o seu tamanho, segundo \cite{BRIANJJOHNSON2017} ovitraps de tamanho grande são 
 mais atrativas as fêmeas do mosquito
- que as ovitraps pequenas além de demandarem manutenções menos frequentes uma vez que as ovitraps pequenas tem taxas de evaporação 
+ que as ovitraps pequenas além de demandarem manutenções menos frequentes uma vez que as ovitraps pequenas têm taxas de evaporação 
  de água muito maiores que as ovitraps maiores.
 
 \newpage
@@ -566,10 +473,10 @@ Levando em conta os pontos levantados anteriormente, foi desenvolvido um protót
 uma ovitrap atrativa 
 as fêmeas do mosquito, ou seja, grande, com a maior parte preta e que também demandasse manutenções com pouca frequência.
 
-O prototipo foi inspirado no modelo Gravid Aedes Trap (GAT) \cite{ALVARO2014}, a parte transparente tem a intenção de confundir 
+O protótipo foi inspirado no modelo Gravid Aedes Trap (GAT) \cite{ALVARO2014}, a parte transparente tem a intenção de confundir 
 o mosquito, que se não for capturado
-pela cola nas paredes pretas da abertura, ao tentar sair da armadilha orientado pela luz, ficará preso no interior da armadilha. 
-É possivel também passar um insecticida sob a parte transparente para antecipar
+pela cola nas paredes pretas da abertura, ao tentar sair da armadilha, orientado pela luz, ficará preso no interior da armadilha. 
+É possível também passar um inseticida sob a parte transparente para antecipar
 a morte do mosquito.
 
 Para o desenvolvimento do protótipo foram utilizados os seguintes materiais
@@ -672,7 +579,7 @@ Dimensões:
     \legend{FONTE: Autor}
 \end{figure}   
 
-Foi feito um recorte em forma de circulo com 30 cm de diâmetro.
+A tela mosquiteira foi recortada em forma de circulo com 30 cm de diâmetro e fixada com velcro às paredes do vaso maior.
 
 \subsection{Breu}
 
@@ -684,7 +591,7 @@ Foi feito um recorte em forma de circulo com 30 cm de diâmetro.
     \legend{FONTE: Autor}
 \end{figure}   
 
-Breu é uma resina natural utilizada para afinar violinos, envernizar moveis, pode ser encontrado em casas de materiais agricolas, 
+Breu é uma resina natural utilizada para afinar violinos, envernizar moveis, pode ser encontrado em casas de materiais agrícolas, 
 No protótipo da armadilha ele foi 
 utilizado nas paredes internas da abertura da armadilha como cola para captura do mosquito. Para o preparo da cola, basta misturar 
 100g de breu com 50ml de óleo de soja 
@@ -719,7 +626,7 @@ foi substituído por um sensor laser de maior precisão.
     \legend{FONTE: Autor}
 \end{figure}   
 
-Na figura acima vemos o módulo NodeMCU, alimentado por um cabo micro USB, e conectado a uma protoboard que o conecta a 5 sensores laser,
+Na figura acima vemos o módulo NodeMCU, alimentado por um cabo micro USB e conectado a uma protoboard que o conecta a 5 sensores laser,
 fixados nas extremidades do prato. Foi utilizada a protoboard para fins de desenvolvimento e teste do conjunto, após a validação do mesmo
 a protoboard bem como todo esse emaranhado de fios será substituido por um circuito digital bem mais enxuto. 
 
@@ -731,7 +638,7 @@ a protoboard bem como todo esse emaranhado de fios será substituido por um circ
     \legend{FONTE: Autor}
 \end{figure}   
 
-No esquema acima é possivel ver detalhadamente as ligações entre o módulo e os sensores, note que os ponto verdes na protoboard representam 
+No esquema acima é possível ver detalhadamente as ligações entre o módulo e os sensores, note que os ponto verdes na protoboard representam 
 linhas energizadas. A programação do módulo NodeMCU foi feita em C, utilizando a extensão PlatformIO do VSCode. 
 
 Os módulos e sensores utilizados na armadilha são:
@@ -746,7 +653,7 @@ Os módulos e sensores utilizados na armadilha são:
     \legend{FONTE: Autor}
 \end{figure}
 
-O NodeMCU é uma placa de desenvolvimento com módulo Wi-Fi integrado, compativel com as linguagens de programação: Lua, Python, 
+O NodeMCU é uma placa de desenvolvimento com módulo Wi-Fi integrado, compatível com as linguagens de programação: Lua, Python, 
 JavaScript e IDE do Arduino.
 
 
@@ -766,7 +673,7 @@ informações para o NodeMCU.
 \section{Software}
 
 Para receber e armazenar os dados provenientes das armadilhas foi foi desenvolvido uma API em NodeJS, utilizando o framework Express
- e banco de dados Postgres.
+ e banco de dados Postgre.
 
 \begin{figure}[H]
 \centering
@@ -784,7 +691,7 @@ uma instancia do EC2. A comunicação entre a aplicação cliente e a API é fei
 \subsection{Banco de dados}
 
 Para a tarefa de armazenar os dados provenientes das armadilhas, das empresas/prefeituras e dos usuários da plataforma, 
-foi escolhido o banco relacional Postgres. A figura abaixo mostra o diagrama de tabelas do banco:
+foi escolhido o banco relacional Postgre. A figura abaixo mostra o diagrama de tabelas do banco:
 
 \begin{figure}[H]
 \centering
@@ -797,8 +704,8 @@ foi escolhido o banco relacional Postgres. A figura abaixo mostra o diagrama de 
 É inserido um novo registro na tabela ovitrap\_catches a cada captura feita por qualquer armadilha, isso possibilita gerar um grafico do 
 número de capturas em função do tempo.
 
-As tabelas permission, profiles e profile\_permissions são responsaveis por fazer o controle de permissões do usuario na plataforma, 
-uma vez que cada usuário tem um perfil e cada perfil possui permissões especificas para aquele perfil. 
+As tabelas permission, profiles e profile\_permissions são responsáveis por fazer o controle de permissões do usuário na plataforma, 
+uma vez que cada usuário tem um perfil e cada perfil possui permissões específicas para aquele perfil. 
 
 A tabela blacklists guarda os tokens
 inválidos que são inseridos quando o usuário faz o logout ou quando seu token expira.
@@ -839,7 +746,7 @@ conta com dois temas, claro e escuro, dois idiomas, português e inglês.
 No dashboard e no cadastro de armadilhas foram utilizados o serviço do Google Maps,
 para exibição das armadilhas conforme sua latitude e longitude. No mapa, ao clicar em cada armadilha, é mostrado a 
 quantidade total de mosquitos capturados pela armadilha.
-Quando há uma captura em tempo real é mostrado o icone de um mosquito acima da armadilha que realizou a captura.
+Quando há uma captura em tempo real é mostrado o ícone de um mosquito acima da armadilha que realizou a captura.
 
 \begin{figure}[H]
     \centering
@@ -860,12 +767,12 @@ Para o envio de emails para o usuário no cadastro e no reset de senha foi utili
         \legend{FONTE: Autor}
     \end{figure}
 
-A plataforma permite cadastrar, listar alterar e deletar: empresas, usuários e armadilhas. 
+A plataforma permite cadastrar, listar, alterar e deletar: empresas, usuários e armadilhas. 
 Existem 3 perfis de usuários: Administradores do Sistema, Gestores e Agentes. 
 Administradores do Sistema têm acesso a todas as funcionalidades do sistema.
 Gestores têm acesso a todas as funcionalidades do sistema (exceto cadastrar, ler, alterar e deletar empresas/prefeituras).
-Agentes somente podem ver as armadilhas da sua propria empresa, cadastrar novas armadilhas, alterar e deletar apenas
-suas proprias armadilhas.
+Agentes somente podem ver as armadilhas da sua própria empresa, cadastrar novas armadilhas, alterar e deletar apenas
+suas próprias armadilhas.
 
 \begin{figure}[H]
     \centering
@@ -894,19 +801,29 @@ que o range configurado faz uma chamada HTTP POST para API. A API por sua vez in
 envia um payload via socket para todos os usuários daquela empresa conectados. A aplicação recebe o payload e exibe uma nova captura
 no mapa, no gráfico e na tabela.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.09, angle=-90]{imagens/IMG_0609.jpg}
+    \caption{Protótipo final da armadilha em funcionamento}
+        \label{fig:protótipofinal}
+        \legend{FONTE: Autor}
+    \end{figure}
 
 \section{Custos}
 
-Para construção do protótipo foram utilizados materiais que podem ser adquiridos facilmente na internet, lojas de materiais domésticos ou agricolas.
-A lista completa de todos os materiais e respectivos valores cotados em reais (R\$) na data da publicação destes trabalho está abaixo:
+Para construção do protótipo foram utilizados materiais que podem ser adquiridos facilmente na internet, lojas de materiais domésticos ou agrícolas.
+Abaixo temos a tabela completa de todos os materiais e valores, cotados na data de publicação deste trabalho, na moeda brasileira real.
 
-\begin{center}
-    \begin{adjustbox}{width=\textwidth}      
-        \begin{tabular}{ |c|c|c|c|c|c|c| } 
+\begin{center}     
+        \begin{table}[H]
+            \caption{Tabela de custo}
+            \label{tab:custos} 
+            \begin{adjustbox}{width=\textwidth}  
+        \begin{tabular}{ |c|c|c|c|c|c|c| }                           
             \hline
-            \rowcolor{lightgray} Descrição & Quantidade por lote & Unidade de medida & Valor lote & Valor por unidade & Quantidade utilizada & Valor total \\
+            \rowcolor{lightgray} \textbf{Descrição} & \textbf{Quantidade por lote} & \textbf{Unidade de medida} & \textbf{Valor lote} & \textbf{Valor por unidade} & \textbf{Quantidade utilizada} & \textbf{Valor total} \\
             \hline
-            \textbf{Vaso maior} & \textbf{1} & \textbf{un} & \textbf{8,99} & \textbf{8,99} & \textbf{1} & \textbf{8,99} \\
+            Vaso maior & 1 & un & 8,99 & 8,99 & 1 & 8,99 \\
             \hline
             Vaso menor & 1 & un & 1,99 & 1,99 & 1 & 1,99 \\
             \hline
@@ -914,13 +831,15 @@ A lista completa de todos os materiais e respectivos valores cotados em reais (R
             \hline
             Prato & 1 & un & 1,99 & 1,99 & 1 & 1, \\
             \hline
-            Tela com velcro & 1,95 & m² & 12,99 & 6,66 & 0,066 & 0,44 \\
+            Tela com velcro & 1,95 & $m^{2}$ & 12,99 & 6,66 & 0,066 & 0,44 \\
             \hline
             Breu & 100 & g & 7,7 & 0,08 & 100 & 7,70 \\
             \hline
             Palito Churrasco & 100 & un & 15 & 0,15 & 2 & 0,30 \\
             \hline
             Fita herllerman 120mm & 100 & un & 4,99 & 0,05 & 3 & 0,15 \\
+            \hline
+            Bastao cola quente & 10 & un & 5,99 & 0,60 & 1 & 0,60 \\
             \hline
             Jumpers & 120 & un & 20,72 & 0,17 & 54 & 9,32 \\
             \hline
@@ -933,34 +852,43 @@ A lista completa de todos os materiais e respectivos valores cotados em reais (R
             Cabo micro USB & 1 & un & 4,9 & 4,90 & 1 & 4,90 \\
             \hline
             Fonte de tomada USB 5v & 1 & un & 10,23 & 10,23 & 1 & 10,23 \\
-            \hline
-            Bastao cola quente & 10 & un & 5,99 & 0,60 & 1 & 0,60 \\
-            \hline
+            \hline           
             &  &  &  &  & \textbf{Total} & \textbf{166,05} \\
             \hline
-        \end{tabular}    
+        \end{tabular}  
     \end{adjustbox}
+    \end{table}    
 \end{center}
 
+Observamos a partir da tabela acima que o custo com componentes eletrônicos foi de R\$133,904 que representa 80,64\% do valor total do protótipo e que o custo com 
+com componentes estruturais foi de R\$32,15 que representa 19,36\% do valor total do protótipo
 
 \chapter{Conclusão e trabalhos futuros}
 
+Baseado nos testes realizados com o protótipo em campo aberto, observou-se que a maior dificuldade é atrair mosquitos para armadilha, a armadilha foi deixada por uma semana em
+um jardim, e não foi capturado nenhum mosquito. Houve alguns registros do  sensor, porém nenhum mosquito foi capturado pela cola interna da armadilha. A cola desenvolvida com breu,
+após alguns dias derreteu e caiu na tela mosquiteira da armadilha, provavelmente devido ao calor do sol. Após alguns meses a cola ressecou e perdeu sua aderência. Apesar do protótipo
+não ter sucesso em capturar mosquitos, todo o restante da aplicação se saiu bem em testes com objetos maiores ou com chamadas HTTP que simulam uma armadilha real. A plataforma está 
+consistentes e pode ser replicada para qualquer outra rede de sensores com pouquíssimas modificações, a estrutura do banco está bem definida e todo o sistema de perfis e 
+permissões podem ser customizados de acordo com a necessidade do cliente.
 
-Validar o protótipo da armadilha, em ambiente controlado e em ambiente aberto. Analisar os resultados e calcular a eficácia da mesma.
+Como trabalhos futuros temos os seguintes itens: 
 
-Cadastrar o id da armadilha, nome e senha da rede wifi de maneira dinamica.
-
-Melhorar a aplicação para que seja possivel cadastrar uma foto de perfil para o usuário
-
-Analisar a viabilidade de se trocar o sensor laser por um sensor sonoro, com aplicação de filtro sonoro para a frequência sonora de voo do mosquito.
-
-Procurar alternativas melhores para cola no interior da armadilha, como fitas prega-rato ou fitas prega-mosca. Existe a possibilidade de se incluir uma 
-ventoinha abaixo da abertura para que o mosquito seja sugado para dentro da armadilha.
-
-Apesar de as armadilhas somente mandarem dados para API quando um sensor é disparado e não a cada segundo. Seria interessante separar os dados 
-em 2 bancos, um relacional para os dados de empresas e usuários, e um não relacional como MongoDB os dados vindo das armadilhas. O banco não relacional
-trabalha melhor que o relacional quando existe uma quantidade muito grande de dados. Também seria interessante pensar em uma arquitetura de banco 
-multi-tenant (um banco apara cada cliente) visando a escalabilidade e o isolamento dos dados.
+\begin{itemize}
+    \item Nível de protótipo
+    \begin{itemize}
+        \item Validar o protótipo da armadilha, em ambiente controlado e em ambiente aberto. Analisar e comparar os resultados e a eficácia da mesma.
+        \item Analisar o uso de substâncias com cheiro atrativo para o mosquito, como por exemplo a alfafa prensada.
+        \item Analisar a viabilidade de se trocar o sensor laser por um sensor sonoro, com aplicação de filtro sonoro para a frequência sonora de voo do mosquito.
+        \item Procurar alternativas melhores para cola no interior da armadilha, como fitas prega-rato ou fitas prega-mosca e ou incluir uma 
+        ventoinha abaixo da abertura para que o mosquito seja sugado para dentro da armadilha.
+    \end{itemize}
+    \item Nível de aplicação
+    \begin{itemize}
+        \item Cadastrar o id da armadilha, nome e senha da rede wifi de maneira dinâmica.
+        \item Melhorar a aplicação para que seja possível cadastrar uma foto de perfil para o usuário
+    \end{itemize}   
+\end{itemize}
 
 
 % ----------------------------------------------------------
@@ -978,6 +906,7 @@ multi-tenant (um banco apara cada cliente) visando a escalabilidade e o isolamen
 \chapter*{REFERÊNCIAS}
 \addcontentsline{toc}{chapter}{REFERÊNCIAS}
 \renewcommand{\bibsection}{}
+\bibliography{bibliografia.bib}
 
 
 

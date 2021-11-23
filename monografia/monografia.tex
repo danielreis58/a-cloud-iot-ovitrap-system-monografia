@@ -762,7 +762,17 @@ Juntando protótipo, sistema embarcado e sistema hospedado em nuvem, temos o seg
 Nele temos uma visão completa do funcionamento do sistema, tudo começa no sensor da armadilha, que ao medir uma distância menor
 que o range configurado faz uma chamada HTTP POST para API. A API por sua vez insere a nova captura na tabela de capturas, e 
 envia um payload via socket para todos os usuários daquela empresa conectados. A aplicação recebe o payload e exibe uma nova captura
-no mapa, no gráfico e na tabela.
+no mapa, no gráfico e na tabela. 
+
+O código de cada parte do sistema está disponível no link:
+
+https://gitlab.com/users/danielreis58/projects
+
+Os nomes de cada repositório são: 
+
+A Cloud IoT-Ovitrap System - ESP32, A Cloud IoT-Ovitrap System - API e A Cloud IoT-Ovitrap System - Dashboard
+
+
 
 \begin{figure}[H]
     \centering

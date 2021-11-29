@@ -352,18 +352,18 @@ fotografar as larvas do mosquito.
         \legend{FONTE: Autor}
     \end{figure}
 
-A figura acima é primeira foto do desenvolvimento deste trabalho, ela mostra um módulo NodeMCU, um sensor laser (o mesmo usado no protótipo final), 
+A figura acima é primeira foto do desenvolvimento deste trabalho, ela mostra um módulo NodeMCU, um sensor laser (o mesmo utilizado no protótipo final), 
 um sensor ultrassônico, um módulo ESP32-CAM e uma câmera GoPro. A foto foi tirada no primeiro de vários testes. 
 
 O primeiro teste consistia em ter duas câmeras, uma para fotografar 
 os mosquitos (ESP32-CAM), e uma para as larvas (GoPro). A câmera GoPro possui um web server integrado, onde é possível via requisições HTTP, tirar fotos, gravar vídeos e controlar 
 várias outras funções da câmera, o ESP32-CAM também possui wi-fi integrado. Então, neste primeiro modelo, a câmera esp era ativada pelo sensor laser, e a GoPro era ativada a cada 1 hora, 
-lembre-se que a GoPro ficaria submersa e seria responsável por fotografar o desenvolvimento das larvas do mosquito. 
+destaca-se que a GoPro ficaria submersa e seria responsável por fotografar o desenvolvimento das larvas do mosquito. 
 Uma das dificuldades encontradas neste primeiro modelo, era que além de se conectar com o web server da GoPro, 
 o modulo ESP32-CAM também se conectava com uma rede Wifi externa, através da qual enviava as fotos via requisição HTTP para API. 
-O tempo de envio das fotos da GoPro para API era um pouco lento, devido a alta resolução das fotos, já o tempo do ESP32 era aceitável. 
-Outro ponto era que essas fotos ficavam armazenadas em um cartão Micro-SD no módulo ESP32-CAM. O fato de ter que conectar em duas redes diferentes, 
-ter de usar um cartão Micro-SD, além do custo do projeto ficar elevado devido a GoPro, foi desenvolvido um segundo teste sem a GoPro, apenas 
+O tempo de envio das fotos da GoPro com resolução 1080p para API era de aproximadamente 30 segundos, já o tempo do ESP32 era em torno de 3 segundos. 
+Outro ponto era que essas fotos ficavam armazenadas em um cartão Micro-SD no módulo ESP32-CAM antes de serem enviadas para API. O fato de ter que conectar em duas redes Wifi diferentes, 
+ter de usar um cartão Micro-SD, além do custo do projeto ficar acima de R\$2000, foi desenvolvido então um segundo teste sem a GoPro, apenas 
 com o ESP32-CAM e o sensor laser.
 
 \begin{figure}[H]
@@ -374,10 +374,9 @@ com o ESP32-CAM e o sensor laser.
         \legend{FONTE: Autor}
     \end{figure}
 
-Neste segundo teste havia apenas uma câmera ESP32-CAM, utilizando um cartão Micro-SD e fixada no teto da armadilha, o fato de usar apenas uma câmera, eliminou a necessidade 
-de se conectar em duas redes diferentes, e o tempo de upload de arquivos para API era menor que do primeiro teste, uma vez que as fotos tiradas pelo ESP32-CAM
-tem no máximo 2MB de resolução. Se por um lado isso é bom para comunicação com a API, por outro lado é ruim, pois é praticamente impossível detectar um mosquito na foto registrada, 
-fator esse que levou a um terceiro teste que deu origem ao protótipo apresentado a seguir.
+Neste segundo teste havia apenas uma câmera ESP32-CAM fixada ao teto da armadilha, ainda utilizando o cartão Micro-SD. O fato de ter apenas uma câmera, eliminou a necessidade 
+de se conectar em duas redes diferentes. Porem a resolução da câmera ESP32-CAM é de no máximo 1600 x 1200 pixels o que torna praticamente impossível detectar um mosquito na 
+foto registrada, fator esse que levou a um terceiro teste que deu origem ao protótipo apresentado a seguir.
 
 \begin{figure}[H]
     \centering
@@ -590,8 +589,7 @@ foi substituído por um sensor laser de maior precisão.
 \end{figure}   
 
 Na figura acima vemos o módulo NodeMCU, alimentado por um cabo micro USB e conectado a uma protoboard que o conecta a 5 sensores laser
-fixados nas extremidades do prato. Foi utilizada a protoboard para fins de desenvolvimento e teste do conjunto, após a validação do mesmo
-a protoboard bem como todo esse emaranhado de fios será substituido por um circuito digital bem mais enxuto. 
+fixados nas extremidades do prato. Foi utilizada uma protoboard para facilitar as ligações entre o módulo e os sensores. 
 
 \begin{figure}[H]
     \centering

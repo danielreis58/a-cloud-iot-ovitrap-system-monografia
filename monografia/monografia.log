@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.11.18)  29 NOV 2021 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.11.18)  29 NOV 2021 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1456,15 +1456,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 894.
  ) 
 Here is how much of TeX's memory you used:
- 17887 strings out of 494903
- 270128 string characters out of 6179960
+ 17889 strings out of 494903
+ 270146 string characters out of 6179960
  441246 words of memory out of 5000000
  20636 multiletter control sequences out of 15000+600000
- 61580 words of font info for 105 fonts, out of 8000000 for 9000
+ 61686 words of font info for 106 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  47i,13n,77p,728b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.pdf" (48 pages, 15421405 bytes).
+Output written on "/home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.pdf" (48 pages, 15421406 bytes).
 PDF statistics:
  628 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams

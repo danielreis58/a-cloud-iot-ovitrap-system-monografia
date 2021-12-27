@@ -183,6 +183,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
@@ -210,21 +212,34 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-INPUT ./capa.tex
-INPUT ./capa.tex
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/./imagens/logo_unifei.png
-INPUT ./imagens/logo_unifei.png
-INPUT ./imagens/logo_unifei.png
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmbi.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmbi.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/capa_folha_rosto.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
@@ -266,20 +281,20 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpg
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpg
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
-INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpeg
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpeg
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/ovitrapLoki.jpeg
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/exemplosovitraps.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
+INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/smartovitrap2.png
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_8989.jpg
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_8989.jpg
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/IMG_8989.jpg
@@ -365,6 +380,8 @@ INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monogr
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/monografia.bbl
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq.tex
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/docreq.tex
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/DiagramaPlataforma.png
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/DiagramaPlataforma.png
 INPUT /home/daniel/Documents/TFG PARTE ESCRITA/a-cloud-iot-ovitrap-system-monografia/monografia/imagens/DiagramaPlataforma.png
@@ -383,7 +400,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb
-INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmbi.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb

@@ -5,44 +5,172 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Andrioli et al. 2020]{ADRIOLI2020}
+\abntrefinfo{Andrioli et al.}{ANDRIOLI et al.}{2020}
+{ANDRIOLI, D.~C.; BUSATO, M.~A.; LUTINSKI, J.~A. Spatial and temporal
+  distribution of dengue in brazil, 1990 - 2017.
+\emph{PLoS ONE}, Feb 2020.}
+
+\bibitem[ApexCharts 2021]{ApexCharts}
+\abntrefinfo{ApexCharts}{APEXCHARTS}{2021}
+{APEXCHARTS. \emph{ApexCharts}. 2021.
+Dispon{\'\i}vel em: \url{https://apexcharts.com/docs/installation/}. Acesso em:
+  15/12/2021.}
+
+\bibitem[API 2021]{ReactGoogleMaps}
+\abntrefinfo{API}{API}{2021}
+{API, R. G.~M. \emph{React Google Maps API}. 2021.
+Dispon{\'\i}vel em: \url{https://www.npmjs.com/package/@react-google-maps/api}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[AWS 2021]{S3}
+\abntrefinfo{AWS}{AWS}{2021}
+{AWS. \emph{Amazon S3}. 2021.
+Dispon{\'\i}vel em: \url{https://aws.amazon.com/pt/s3/}. Acesso em:
+  15/12/2021.}
+
+\bibitem[Bhatt et al. 2013]{BHATT2013}
+\abntrefinfo{Bhatt et al.}{BHATT et al.}{2013}
+{BHATT, S. et al. The global distribution and burden of dengue.
+\emph{Nature}, Apr 2013.}
+
+\bibitem[Docker 2021]{DockerDoc}
+\abntrefinfo{Docker}{DOCKER}{2021}
+{DOCKER. \emph{Deploying Docker containers on ECS}. 2021.
+Dispon{\'\i}vel em: \url{https://docs.docker.com/cloud/ecs-integration/}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[EE et al. 2006]{OoiEE}
+\abntrefinfo{EE et al.}{EE et al.}{2006}
+{EE, O.; KT, G.; DJ, G. Effects of beauveria bassiana on survival,
+  blood-feeding success, and fecundity of aedes aegypti in laboratory and
+  semi-field conditions.
+\emph{Emerging infectious diseases}, v.~12, 2006.}
+
 \bibitem[EIRAS et al. 2014]{ALVARO2014}
 \abntrefinfo{EIRAS et al.}{EIRAS et al.}{2014}
-{EIRAS, A.~E.; BUHAGIAR, T.~S.; RITCHIE, S.~A. {Efficacy of Ovitrap Colors and
-  Patterns for Attracting Aedes albopictus at Suburban Field Sites in
-  North-Central Florida}.
+{EIRAS, A.~E.; BUHAGIAR, T.~S.; RITCHIE, S.~A. Efficacy of ovitrap colors and
+  patterns for attracting aedes albopictus at suburban field sites in
+  north-central florida.
 \emph{Journal of Medical Entomology, Volume 51, Issue 1, 1 January}, 2014.}
+
+\bibitem[{Epagri Vídeos} 2017]{ColaBreu}
+\abntrefinfo{{Epagri Vídeos}}{{Epagri Vídeos}}{2017}
+{{Epagri Vídeos}. \emph{Armadilhas para insetos}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.youtube.com/watch?v=my\_9UzPPTUg&ab\_channel=EpagriV\%C3\%ADdeos}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[Express 2021]{Express}
+\abntrefinfo{Express}{EXPRESS}{2021}
+{EXPRESS. \emph{Express}. 2021.
+Dispon{\'\i}vel em: \url{https://expressjs.com/pt-br/4x/api.html\#express}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[G1 2020]{G1}
+\abntrefinfo{G1}{G1}{2020}
+{G1. \emph{Brasil teve aumento de 488 por cento nos casos de dengue em 2019}.
+  2020.
+Dispon{\'\i}vel em:
+  \url{https://g1.globo.com/ciencia-e-saude/noticia/2020/01/13/brasil-teve-aumento-de-488percent-nos-casos-de-dengue-em-2019.ghtml}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[Health 2020]{MS}
+\abntrefinfo{Health}{HEALTH}{2020}
+{HEALTH, B.~M. of. \emph{Ministério da Saúde lança campanha nacional de
+  combate ao mosquito Aedes aegypti}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/11/ministerio-da-saude-lanca-campanha-nacional-de-combate-ao-mosquito-aedes-aegypti}.
+  Acesso em: 15/12/2021.}
 
 \bibitem[Hoel et al. 2011]{DAVIDF2011}
 \abntrefinfo{Hoel et al.}{HOEL et al.}{2011}
-{HOEL, D.~F. et al. {Efficacy of Ovitrap Colors and Patterns for Attracting
-  Aedes albopictus at Suburban Field Sites in North-Central Florida}.
+{HOEL, D.~F. et al. Efficacy of ovitrap colors and patterns for attracting
+  aedes albopictus at suburban field sites in north-central florida.
 \emph{Journal of the American Mosquito Control Association}, 2011.}
 
 \bibitem[Isa et al. 2019]{ISMALIZA2019}
 \abntrefinfo{Isa et al.}{ISA et al.}{2019}
-{ISA, I. et al. {An IoT-Based Ovitrap System Applied for Aedes Mosquito
-  Surveillance}.
+{ISA, I. et al. An iot-based ovitrap system applied for aedes mosquito
+  surveillance.
 \emph{IJEAT}, Out 2019.}
 
 \bibitem[Johnson et al. 2017]{BRIANJJOHNSON2017}
 \abntrefinfo{Johnson et al.}{JOHNSON et al.}{2017}
-{JOHNSON, B.~J.; RITCHIE, S.~A.; FONSECA, D.~M. {The State of the Art of Lethal
-  Oviposition Trap-Based Mass Interventions for Arboviral Control}.
+{JOHNSON, B.~J.; RITCHIE, S.~A.; FONSECA, D.~M. The state of the art of lethal
+  oviposition trap-based mass interventions for arboviral control.
 \emph{Insects}, Jan 2017.}
+
+\bibitem[{Just me and Opensource} 2020]{DockerVideo}
+\abntrefinfo{{Just me and Opensource}}{{Just me and Opensource}}{2020}
+{{Just me and Opensource}. \emph{[ Docker 4 ] Using docker-machine to create
+  EC2 instance in AWS}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://www.youtube.com/watch?v=7MXG7bxrokk&ab\_channel=JustmeandOpensource}.
+  Acesso em: 15/12/2021.}
 
 \bibitem[Lok et al. 1977]{LOK1977}
 \abntrefinfo{Lok et al.}{LOK et al.}{1977}
-{LOK et al. {An autocidal ovitrap for the control and possible eradication of
-  Aedes aegypti}.
+{LOK et al. An autocidal ovitrap for the control and possible eradication of
+  aedes aegypti.
 \emph{Southeast Asian J. Trop. Med. Publ. Health}, p. 2669--2677, 1977.}
 
-\bibitem[Paz-Soldan Josh~Yukich et al. 2016]{VALERIE2016}
-\abntrefinfo{Paz-Soldan Josh~Yukich et al.}{PAZ-SOLDAN JOSH~YUKICH et
-  al.}{2016}
-{PAZ-SOLDAN JOSH~YUKICH, A.~S. V.~A. et al. {Design and Testing of Novel Lethal
-  Ovitrap to Reduce Populations of Aedes Mosquitoes Community-Based
-  Participatory Research between Industry Academia and Communities in Peru and
-  Thailand}.
+\bibitem[MUI 2021]{MUI}
+\abntrefinfo{MUI}{MUI}{2021}
+{MUI. \emph{MUI}. 2021.
+Dispon{\'\i}vel em: \url{https://mui.com/pt/getting-started/usage/}. Acesso em:
+  15/12/2021.}
+
+\bibitem[NodeJS 2021]{NodeJS}
+\abntrefinfo{NodeJS}{NODEJS}{2021}
+{NODEJS. \emph{NodeJS}. 2021.
+Dispon{\'\i}vel em: \url{https://nodejs.org/en/docs/}. Acesso em: 15/12/2021.}
+
+\bibitem[Paz-Soldan et al. 2016]{VALERIE2016}
+\abntrefinfo{Paz-Soldan et al.}{PAZ-SOLDAN et al.}{2016}
+{PAZ-SOLDAN, V.~A. et al. Design and testing of novel lethal ovitrap to reduce
+  populations of aedes mosquitoes community-based participatory research
+  between industry academia and communities in peru and thailand.
 \emph{Plos One}, n. 0160386, Aug 2016.}
+
+\bibitem[{Platformio} 2021]{Platformio}
+\abntrefinfo{{Platformio}}{{Platformio}}{2021}
+{{Platformio}. \emph{Platformio}. 2021.
+Dispon{\'\i}vel em: \url{https://docs.platformio.org/en/latest/}. Acesso em:
+  15/12/2021.}
+
+\bibitem[PostgreSQL 2021]{PostgreSQL}
+\abntrefinfo{PostgreSQL}{POSTGRESQL}{2021}
+{POSTGRESQL. \emph{PostgreSQL}. 2021.
+Dispon{\'\i}vel em: \url{https://www.postgresql.org/docs/14/index.html}. Acesso
+  em: 15/12/2021.}
+
+\bibitem[React 2021]{React}
+\abntrefinfo{React}{REACT}{2021}
+{REACT. \emph{React}. 2021.
+Dispon{\'\i}vel em: \url{https://pt-br.reactjs.org/docs/getting-started.html}.
+  Acesso em: 15/12/2021.}
+
+\bibitem[Redux-Saga 2021]{ReduxSaga}
+\abntrefinfo{Redux-Saga}{REDUX-SAGA}{2021}
+{REDUX-SAGA. \emph{Redux-Saga}. 2021.
+Dispon{\'\i}vel em: \url{https://redux-saga.js.org/}. Acesso em: 15/12/2021.}
+
+\bibitem[SendGrid 2021]{SendGrid}
+\abntrefinfo{SendGrid}{SENDGRID}{2021}
+{SENDGRID. \emph{SendGrid}. 2021.
+Dispon{\'\i}vel em: \url{https://docs.sendgrid.com/pt-br/}. Acesso em:
+  15/12/2021.}
+
+\bibitem[{SocketIo} 2021]{SocketIo}
+\abntrefinfo{{SocketIo}}{{SocketIo}}{2021}
+{{SocketIo}. \emph{SocketIo}. 2021.
+Dispon{\'\i}vel em: \url{https://socket.io/docs/v4/}. Acesso em: 15/12/2021.}
+
+\bibitem[{VSCode} 2021]{VSCode}
+\abntrefinfo{{VSCode}}{{VSCode}}{2021}
+{{VSCode}. \emph{VSCode}. 2021.
+Dispon{\'\i}vel em: \url{https://code.visualstudio.com/}. Acesso em:
+  15/12/2021.}
 
 \end{thebibliography}

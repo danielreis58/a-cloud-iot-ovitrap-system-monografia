@@ -1,34 +1,34 @@
 \babel@toc {brazil}{}
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Primeiro modelo de ovitrap, desenvolvido na d\IeC {\'e}cada de 70\relax }}{12}{figure.caption.9}
-\contentsline {figure}{\numberline {2}{\ignorespaces (A) Standard Lethal Ovitrap (LO), (B) National Environmental Agency Singapore Sticky Ovitrap (SO), (C) MosquiTRAP Sticky Ovitrap (SO), (D) Biogents Gravid Aedes Trap (GAT), (E) Centers for Disease Control (CDC) Autocidal Gravid Ovitrap(AGO)\relax }}{13}{figure.caption.10}
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de ovitrap desenvolvido por Ismaliza Isa et al. \relax }}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {4}{\ignorespaces Primeiros testes\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {5}{\ignorespaces Esquema de pastas de fotos para larvas e mosquitos no Amazon S3\relax }}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {6}{\ignorespaces Foto registrada pelo ESP32-CAM\relax }}{16}{figure.caption.14}
-\contentsline {figure}{\numberline {7}{\ignorespaces Padr\IeC {\~o}es em ovitraps\relax }}{17}{figure.caption.15}
-\contentsline {figure}{\numberline {8}{\ignorespaces Prot\IeC {\'o}tipo de ovitrap desenvolvida neste trabalho (sem sensores)\relax }}{18}{figure.caption.16}
-\contentsline {figure}{\numberline {9}{\ignorespaces Vaso maior\relax }}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {10}{\ignorespaces Vaso menor\relax }}{19}{figure.caption.18}
-\contentsline {figure}{\numberline {11}{\ignorespaces Prato\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {12}{\ignorespaces Boleira\relax }}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {13}{\ignorespaces Tampa da boleira ap\IeC {\'o}s o recorte\relax }}{21}{figure.caption.21}
-\contentsline {figure}{\numberline {14}{\ignorespaces Tela mosquiteira\relax }}{22}{figure.caption.22}
-\contentsline {figure}{\numberline {15}{\ignorespaces Tela mosquiteira ap\IeC {\'o}s o recorte\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {16}{\ignorespaces Breu\relax }}{23}{figure.caption.24}
-\contentsline {figure}{\numberline {17}{\ignorespaces Abertura com prato superior\relax }}{23}{figure.caption.25}
-\contentsline {figure}{\numberline {18}{\ignorespaces Sensores conectados e fixos ao prato da armadilha\relax }}{24}{figure.caption.26}
-\contentsline {figure}{\numberline {19}{\ignorespaces Esquema de liga\IeC {\c c}\IeC {\~a}o dos sensores\relax }}{25}{figure.caption.27}
-\contentsline {figure}{\numberline {20}{\ignorespaces NodeMCU\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {21}{\ignorespaces VL53L0X-V2. (Time-of-Flight)\relax }}{26}{figure.caption.29}
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de infraestrutura\relax }}{27}{figure.caption.30}
-\contentsline {figure}{\numberline {23}{\ignorespaces Diagrama do banco\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {24}{\ignorespaces Tema claro\relax }}{29}{figure.caption.32}
-\contentsline {figure}{\numberline {25}{\ignorespaces Tema escuro\relax }}{29}{figure.caption.33}
-\contentsline {figure}{\numberline {26}{\ignorespaces Tela de login\relax }}{30}{figure.caption.34}
-\contentsline {figure}{\numberline {27}{\ignorespaces Tela de listagem de armadilhas\relax }}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {28}{\ignorespaces Tela de cadastro de armadilhas\relax }}{31}{figure.caption.36}
-\contentsline {figure}{\numberline {29}{\ignorespaces Tela de cadastro de armadilhas\relax }}{32}{figure.caption.37}
-\contentsline {figure}{\numberline {30}{\ignorespaces Prot\IeC {\'o}tipo final da armadilha em funcionamento\relax }}{33}{figure.caption.38}
-\contentsline {figure}{\numberline {31}{\ignorespaces Diagrama do sistema\relax }}{39}{figure.caption.49}
-\contentsline {figure}{\numberline {32}{\ignorespaces Diagrama de Casos de Uso\relax }}{41}{figure.caption.50}
+\contentsline {figure}{\numberline {1}{\ignorespaces Primeiro modelo de ovitrap, desenvolvido na d\IeC {\'e}cada de 70..\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {2}{\ignorespaces (A) Standard Lethal Ovitrap (LO), (B) National Environmental Agency Singapore Sticky Ovitrap (SO), (C) MosquiTRAP. Sticky Ovitrap (SO), (D) Biogents Gravid Aedes Trap (GAT), (E) Centers for Disease Control (CDC) Autocidal Gravid Ovitrap(AGO)\relax }}{15}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de ovitrap desenvolvido por Ismaliza Isa et al. .\relax }}{16}{figure.caption.10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Primeiros testes, m\IeC {\'o}dulo NodeMCU, um sensor laser (o mesmo utilizado no prot\IeC {\'o}tipo final),. um sensor ultrass\IeC {\^o}nico, um m\IeC {\'o}dulo ESP32-CAM e uma c\IeC {\^a}mera GoPro\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Estrutura de pastas de fotos para larvas e mosquitos no Amazon S3.\relax }}{18}{figure.caption.12}
+\contentsline {figure}{\numberline {6}{\ignorespaces Foto registrada pelo ESP32-CAM.\relax }}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {7}{\ignorespaces Padr\IeC {\~o}es em ovitraps.\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Prot\IeC {\'o}tipo de ovitrap desenvolvido neste trabalho (sem sensores).\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {9}{\ignorespaces Vaso maior.\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {10}{\ignorespaces Vaso menor.\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {11}{\ignorespaces Prato.\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {12}{\ignorespaces Boleira.\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {13}{\ignorespaces Tampa da boleira ap\IeC {\'o}s o recorte.\relax }}{22}{figure.caption.23}
+\contentsline {figure}{\numberline {14}{\ignorespaces Tela mosquiteira.\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {15}{\ignorespaces Posi\IeC {\c c}\IeC {\~a}o final da tela mosquiteira.\relax }}{22}{figure.caption.26}
+\contentsline {figure}{\numberline {16}{\ignorespaces Breu.\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {17}{\ignorespaces Abertura com prato superior.\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {18}{\ignorespaces Sensores conectados e fixos ao prato da armadilha.\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {19}{\ignorespaces Esquema de liga\IeC {\c c}\IeC {\~a}o dos sensores.\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {20}{\ignorespaces NodeMCU.\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {21}{\ignorespaces VL53L0X-V2 (Time-of-Flight).\relax }}{26}{figure.caption.32}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de infraestrutura.\relax }}{26}{figure.caption.33}
+\contentsline {figure}{\numberline {23}{\ignorespaces Diagrama do banco.\relax }}{27}{figure.caption.34}
+\contentsline {figure}{\numberline {24}{\ignorespaces Tema claro.\relax }}{28}{figure.caption.35}
+\contentsline {figure}{\numberline {25}{\ignorespaces Tema escuro.\relax }}{28}{figure.caption.36}
+\contentsline {figure}{\numberline {26}{\ignorespaces Tela de login.\relax }}{29}{figure.caption.37}
+\contentsline {figure}{\numberline {27}{\ignorespaces Tela de listagem de armadilhas.\relax }}{29}{figure.caption.38}
+\contentsline {figure}{\numberline {28}{\ignorespaces Tela de cadastro de armadilhas.\relax }}{30}{figure.caption.39}
+\contentsline {figure}{\numberline {29}{\ignorespaces Vis\IeC {\~a}o geral do sistema.\relax }}{31}{figure.caption.40}
+\contentsline {figure}{\numberline {30}{\ignorespaces Prot\IeC {\'o}tipo final da armadilha em funcionamento.\relax }}{32}{figure.caption.41}
+\contentsline {figure}{\numberline {31}{\ignorespaces Diagrama do sistema\relax }}{40}{figure.caption.53}
+\contentsline {figure}{\numberline {32}{\ignorespaces Diagrama de Casos de Uso\relax }}{42}{figure.caption.54}
